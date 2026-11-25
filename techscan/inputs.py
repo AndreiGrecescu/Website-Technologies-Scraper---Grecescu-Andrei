@@ -20,7 +20,7 @@ def load_domains(path: str | Path) -> list[str]:
         values = _from_frame(pd.read_parquet(path))
     elif ext in (".csv", ".tsv"):
         import pandas as pd
-        df = pd.read_csv(path, sep=None, engine="python", dtype=str)
+        df = pd.read_csv(path, sep=_sniff_sep(path), dtype=str)
         # headerless single-column csv: the "header" is itself a domain
         if len(df.columns) == 1 and "." in str(df.columns[0]):
             values = [str(df.columns[0])] + df.iloc[:, 0].dropna().tolist()
@@ -38,6 +38,20 @@ def load_domains(path: str | Path) -> list[str]:
         lines = [ln for ln in path.read_text("utf-8", errors="replace").splitlines() if not ln.lstrip().startswith("#")]
         values = re.split(r"[\s,;]+", "\n".join(lines))
     return normalize(values)
+
+
+def _sniff_sep(path: Path) -> str:
+    """Pick the delimiter among real CSV separators only.
+
+    pandas' own sniffing (sep=None) may pick any character: on a one-column file such as
+    "Domain\\nhttps://www.freshful.ro" it chose "o" and cut the domain to "freshful.r".
+    """
+    import csv
+    sample = path.read_text("utf-8-sig", errors="replace")[:65536]
+    try:
+        return csv.Sniffer().sniff(sample, delimiters=",;\t|").delimiter
+    except csv.Error:  # single column: no delimiter at all
+        return "\t" if path.suffix.lower() == ".tsv" else ","
 
 
 def _from_frame(df) -> list[str]:
