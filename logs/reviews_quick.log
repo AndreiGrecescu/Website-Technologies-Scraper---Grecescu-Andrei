@@ -1,0 +1,112 @@
+Analyzify        1/5 dieselpartsdirect.com            pixels=3 extensions=3
+Analyzify        2/5 rossandbrown.com                 pixels=4 extensions=3
+Analyzify        3/5 istyle.bg                        pixels=10 extensions=6
+Analyzify        4/5 mahoneswallpapershop.com         pixels=15 extensions=19
+Analyzify        5/5 speedcomfort.com                 pixels=13 extensions=6
+BeProfit         1/5 bioenex.at                       pixels=6 extensions=4
+BeProfit         2/5 techweise.com                    pixels=22 extensions=13
+BeProfit         3/5 rovedashcam.com                  pixels=14 extensions=5
+BeProfit         4/5 braneitbeauty.com.au             pixels=8 extensions=6
+BeProfit         5/5 ecolino.ro                       pixels=12 extensions=4
+Daasity          1/5 resbiotic.com                    pixels=22 extensions=9
+Daasity          2/5 tacticalbabygear.com             pixels=17 extensions=8
+Daasity          3/5 the-citizenry.com                pixels=13 extensions=1
+Daasity          4/5 theberkey.com                    pixels=7 extensions=9
+Daasity          5/5 tealeaves.com                    pixels=12 extensions=1
+Elevar           1/5 bawbags.com                      pixels=13 extensions=11
+Elevar           2/5 girlpowersupplements.ca          pixels=9 extensions=10
+Elevar           3/5 threadnoble.com                  pixels=5 extensions=0
+Elevar           4/5 gruns.co                         pixels=51 extensions=4
+Elevar           5/5 orimiiskincare.com               pixels=11 extensions=1
+Lebesgue         1/5 audreyschocolates.co.uk          pixels=13 extensions=0
+Lebesgue         2/5 sillypickles.com                 pixels=15 extensions=6
+Lebesgue         3/5 fernfitness.co                   pixels=16 extensions=4
+Lebesgue         4/5 allprintheads.com                pixels=22 extensions=6
+Lebesgue         5/5 nestfold.store                   pixels=14 extensions=0
+Lifetimely       1/5 lumelle.ch                       pixels=7 extensions=1
+Lifetimely       2/5 equatorcoffees.com               pixels=13 extensions=4
+Lifetimely       3/5 liljathelabel.com                pixels=14 extensions=9
+Lifetimely       4/5 evolvetogether.com               pixels=14 extensions=2
+Lifetimely       5/5 primebites.com                   pixels=23 extensions=6
+Littledata       1/5 blissfullittlehome.com.au        pixels=11 extensions=3
+Littledata       2/5 montoddler.com                   pixels=11 extensions=6
+Littledata       3/5 huggymoon.eu                     pixels=9 extensions=3
+Littledata       4/5 rolighverdag.dk                  pixels=9 extensions=3
+Littledata       5/5 highcampflasks.com               pixels=16 extensions=5
+Peel Insights    1/5 koh.com                          pixels=16 extensions=3
+Peel Insights    2/5 biocollabs.com                   pixels=0 extensions=0
+Peel Insights    3/5 liveowyn.com                     pixels=5 extensions=1
+Peel Insights    4/5 saalt.com                        pixels=32 extensions=5
+Peel Insights    5/5 saltair.com                      pixels=20 extensions=0
+Polar Analytics  1/5 naturtintusa.com                 pixels=11 extensions=2
+Polar Analytics  2/5 valabasas.com                    pixels=18 extensions=6
+Polar Analytics  3/5 susannekaufmann.com              pixels=14 extensions=7
+Polar Analytics  4/5 danjohn.com                      pixels=16 extensions=8
+Polar Analytics  5/5 sportyandrich.com                pixels=17 extensions=5
+Sirge            1/5 exponentedge.com                 pixels=11 extensions=4
+Sirge            2/5 donkeytees.com                   pixels=0 extensions=3
+Sirge            3/5 acfcanvasses.com                 pixels=11 extensions=4
+Sirge            4/5 radheys.com                      pixels=8 extensions=4
+Sirge            5/5 record-roots.com                 pixels=12 extensions=3
+Trackify X       1/5 pintryx.com                      pixels=10 extensions=3
+Trackify X       2/5 overstore.gr                     pixels=8 extensions=7
+Trackify X       3/5 rogerpouches.com                 pixels=9 extensions=3
+Trackify X       4/5 ceelike.com                      pixels=8 extensions=0
+Trackify X       5/5 groovylife.store                 pixels=9 extensions=4
+TrueProfit       1/5 kalvir.com                       pixels=11 extensions=8
+TrueProfit       2/5 wellnessnest.co                  pixels=18 extensions=3
+TrueProfit       3/5 bylashbabe.com                   pixels=11 extensions=8
+TrueProfit       4/5 tarivi.com                       pixels=4 extensions=4
+TrueProfit       5/5 nuretox.com                      pixels=9 extensions=2
+
+Analyzify        learned          id=ext:analyzify-ga4-ads-tracking sample=5
+                  shared ext:analyzify-ga4-ads-tracking 5/5 of this tool · 0/55 of other tools
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+BeProfit         no_pixel_signal  id=-                          sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 1780363                        5/5 of this tool · 39/55 of other tools
+                  shared 123074                         4/5 of this tool · 37/55 of other tools
+                  shared 2329312                        4/5 of this tool · 27/55 of other tools
+Daasity          no_pixel_signal  id=-                          sample=5
+                  shared 1780363                        5/5 of this tool · 39/55 of other tools
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+Elevar           learned          id=2509311                    sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+                  shared 2509311                        4/5 of this tool · 0/55 of other tools
+Lebesgue         no_pixel_signal  id=-                          sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 123074                         5/5 of this tool · 36/55 of other tools
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+                  shared 2329312                        4/5 of this tool · 27/55 of other tools
+Lifetimely       no_pixel_signal  id=-                          sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 123074                         5/5 of this tool · 36/55 of other tools
+                  shared 2329312                        5/5 of this tool · 26/55 of other tools
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+Littledata       learned          id=1464241                    sample=5
+                  shared 1464241                        5/5 of this tool · 1/55 of other tools
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared ext:littledata                 5/5 of this tool · 1/55 of other tools
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+Peel Insights    no_pixel_signal  id=-                          sample=5
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+                  shared shopify-pixel                  4/5 of this tool · 54/55 of other tools
+                  shared 123074                         4/5 of this tool · 37/55 of other tools
+Polar Analytics  learned          id=4294333                    sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 123074                         5/5 of this tool · 36/55 of other tools
+                  shared 4294333                        5/5 of this tool · 0/55 of other tools
+                  shared 3009811                        4/5 of this tool · 17/55 of other tools
+Sirge            no_pixel_signal  id=-                          sample=5
+                  shared 1780363                        4/5 of this tool · 40/55 of other tools
+                  shared shopify-pixel                  4/5 of this tool · 54/55 of other tools
+                  shared 2329312                        4/5 of this tool · 27/55 of other tools
+Trackify X       learned          id=838114                     sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 838114                         4/5 of this tool · 0/55 of other tools
+                  shared ext:trackify-x                 4/5 of this tool · 0/55 of other tools
+TrueProfit       learned          id=2553263                    sample=5
+                  shared shopify-pixel                  5/5 of this tool · 53/55 of other tools
+                  shared 2553263                        4/5 of this tool · 0/55 of other tools
+                  shared 123074                         4/5 of this tool · 37/55 of other tools

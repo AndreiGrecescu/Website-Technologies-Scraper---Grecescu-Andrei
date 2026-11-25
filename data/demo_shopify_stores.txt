@@ -1,0 +1,23 @@
+# Public, well-known DTC brands believed to run on Shopify.
+# Used only to demonstrate the competitor/lead layer, because the 200-domain test list
+# turned out to contain very few Shopify stores.
+allbirds.com
+gymshark.com
+kyliecosmetics.com
+colourpop.com
+fashionnova.com
+bombas.com
+rothys.com
+brooklinen.com
+mvmt.com
+chubbiesshorts.com
+ruggable.com
+ridge.com
+skims.com
+drinkolipop.com
+jonesroadbeauty.com
+trueclassictees.com
+cutsclothing.com
+manscaped.com
+feastables.com
+fentybeauty.com

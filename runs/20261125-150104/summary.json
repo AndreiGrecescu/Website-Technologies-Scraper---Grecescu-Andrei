@@ -1,0 +1,254 @@
+{
+ "domains": 200,
+ "status": {
+  "dead": 8,
+  "ok": 151,
+  "unreachable": 17,
+  "blocked": 21,
+  "empty": 2,
+  "parked": 1
+ },
+ "success_rate": 0.755,
+ "ok_via_browser": 0,
+ "blocked_by": {
+  "cloudflare": 12,
+  "akamai": 2,
+  "unknown": 7
+ },
+ "unreachable_reasons": {
+  "http 4": 12,
+  "http 5": 2,
+  "connect": 1,
+  "timeout": 1,
+  "remoteprotocolerror": 1
+ },
+ "unique_techs": 333,
+ "total_detections": 2593,
+ "avg_techs_per_ok": 15.7,
+ "top_techs": [
+  [
+   "Preact",
+   187
+  ],
+  [
+   "React",
+   163
+  ],
+  [
+   "Let's Encrypt",
+   111
+  ],
+  [
+   "Open Graph",
+   99
+  ],
+  [
+   "jQuery",
+   93
+  ],
+  [
+   "PHP",
+   83
+  ],
+  [
+   "HTTP/3",
+   71
+  ],
+  [
+   "MySQL",
+   70
+  ],
+  [
+   "Cloudflare",
+   70
+  ],
+  [
+   "WordPress",
+   64
+  ],
+  [
+   "Priority Hints",
+   62
+  ],
+  [
+   "Google Font API",
+   60
+  ],
+  [
+   "HSTS",
+   59
+  ],
+  [
+   "RSS",
+   57
+  ],
+  [
+   "jQuery Migrate",
+   49
+  ],
+  [
+   "Google Tag Manager",
+   44
+  ],
+  [
+   "Font Awesome",
+   41
+  ],
+  [
+   "Apache HTTP Server",
+   40
+  ],
+  [
+   "Microsoft 365",
+   40
+  ],
+  [
+   "Nginx",
+   35
+  ],
+  [
+   "Google Analytics",
+   35
+  ],
+  [
+   "Cloudflare Bot Management",
+   33
+  ],
+  [
+   "Yoast SEO",
+   27
+  ],
+  [
+   "GoDaddy",
+   26
+  ],
+  [
+   "Google Workspace",
+   23
+  ],
+  [
+   "Swiper",
+   22
+  ],
+  [
+   "Bootstrap",
+   20
+  ],
+  [
+   "Cloudflare DNS",
+   20
+  ],
+  [
+   "Elementor",
+   19
+  ],
+  [
+   "Contact Form 7",
+   18
+  ],
+  [
+   "Akamai",
+   17
+  ],
+  [
+   "Cart Functionality",
+   17
+  ],
+  [
+   "LiteSpeed",
+   17
+  ],
+  [
+   "reCAPTCHA",
+   15
+  ],
+  [
+   "Akamai Bot Manager",
+   14
+  ],
+  [
+   "Google Maps",
+   13
+  ],
+  [
+   "imagesLoaded",
+   13
+  ],
+  [
+   "jsDelivr",
+   13
+  ],
+  [
+   "Amazon Web Services",
+   12
+  ],
+  [
+   "OWL Carousel",
+   11
+  ]
+ ],
+ "shopify_stores": 2,
+ "segments": {
+  "F": 158,
+  "D": 5,
+  "E": 35,
+  "B": 1,
+  "C": 1
+ },
+ "competitor_usage": [
+  [
+   "Google Analytics",
+   35
+  ],
+  [
+   "Matomo Analytics",
+   4
+  ],
+  [
+   "Cloudflare Browser Insights",
+   3
+  ],
+  [
+   "Yandex.Metrika",
+   1
+  ],
+  [
+   "Mixpanel",
+   1
+  ]
+ ],
+ "evidence_by_source": {
+  "http": 2762,
+  "dns": 355,
+  "tls": 125
+ },
+ "detections_only_visible_in_browser": 0,
+ "meta": {
+  "label": "v3 + DNS, TLS, robots.txt",
+  "started_at": "2026-11-25 14:58:56",
+  "duration_s": 128.3,
+  "config": {
+   "tiers": [
+    "http",
+    "dns",
+    "tls",
+    "robots"
+   ],
+   "ua": "chrome",
+   "browser_mode": "off",
+   "concurrency": 24,
+   "browser_concurrency": 4,
+   "http_retries": 2,
+   "wayback_max_age_days": 730,
+   "label": "v3 + DNS, TLS, robots.txt"
+  },
+  "proxy_used": false,
+  "fingerprints": {
+   "public_rules": 7715,
+   "custom_rules": 17,
+   "total": 7732,
+   "regex_compile_errors": 0
+  },
+  "browser_engine": null
+ }
+}

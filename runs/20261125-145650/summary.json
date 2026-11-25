@@ -1,0 +1,243 @@
+{
+ "domains": 200,
+ "status": {
+  "unreachable": 24,
+  "ok": 141,
+  "blocked": 31,
+  "empty": 3,
+  "parked": 1
+ },
+ "success_rate": 0.705,
+ "ok_via_browser": 0,
+ "blocked_by": {
+  "akamai": 8,
+  "cloudflare": 12,
+  "unknown": 11
+ },
+ "unreachable_reasons": {
+  "connect": 10,
+  "http 4": 11,
+  "http 5": 2,
+  "timeout": 1
+ },
+ "unique_techs": 266,
+ "total_detections": 2105,
+ "avg_techs_per_ok": 13.8,
+ "top_techs": [
+  [
+   "Preact",
+   184
+  ],
+  [
+   "React",
+   151
+  ],
+  [
+   "Open Graph",
+   91
+  ],
+  [
+   "jQuery",
+   87
+  ],
+  [
+   "PHP",
+   83
+  ],
+  [
+   "MySQL",
+   71
+  ],
+  [
+   "HTTP/3",
+   70
+  ],
+  [
+   "WordPress",
+   65
+  ],
+  [
+   "Cloudflare",
+   62
+  ],
+  [
+   "Google Font API",
+   59
+  ],
+  [
+   "Priority Hints",
+   57
+  ],
+  [
+   "HSTS",
+   57
+  ],
+  [
+   "RSS",
+   55
+  ],
+  [
+   "jQuery Migrate",
+   49
+  ],
+  [
+   "Font Awesome",
+   41
+  ],
+  [
+   "Apache HTTP Server",
+   39
+  ],
+  [
+   "Google Tag Manager",
+   38
+  ],
+  [
+   "Google Analytics",
+   34
+  ],
+  [
+   "Cloudflare Bot Management",
+   32
+  ],
+  [
+   "Nginx",
+   31
+  ],
+  [
+   "Yoast SEO",
+   28
+  ],
+  [
+   "Swiper",
+   21
+  ],
+  [
+   "Elementor",
+   19
+  ],
+  [
+   "Contact Form 7",
+   18
+  ],
+  [
+   "Cart Functionality",
+   17
+  ],
+  [
+   "LiteSpeed",
+   17
+  ],
+  [
+   "Bootstrap",
+   14
+  ],
+  [
+   "imagesLoaded",
+   14
+  ],
+  [
+   "reCAPTCHA",
+   13
+  ],
+  [
+   "Google Maps",
+   13
+  ],
+  [
+   "Site Kit",
+   11
+  ],
+  [
+   "WordPress Block Editor",
+   11
+  ],
+  [
+   "parallax.js",
+   11
+  ],
+  [
+   "OWL Carousel",
+   10
+  ],
+  [
+   "jsDelivr",
+   10
+  ],
+  [
+   "PWA",
+   9
+  ],
+  [
+   "Wix",
+   9
+  ],
+  [
+   "Slick",
+   9
+  ],
+  [
+   "Lodash",
+   8
+  ],
+  [
+   "wpBakery",
+   8
+  ]
+ ],
+ "shopify_stores": 2,
+ "segments": {
+  "F": 162,
+  "D": 4,
+  "E": 32,
+  "B": 1,
+  "C": 1
+ },
+ "competitor_usage": [
+  [
+   "Google Analytics",
+   34
+  ],
+  [
+   "Matomo Analytics",
+   4
+  ],
+  [
+   "Yandex.Metrika",
+   1
+  ],
+  [
+   "Cloudflare Browser Insights",
+   1
+  ]
+ ],
+ "evidence_by_source": {
+  "http": 2599
+ },
+ "detections_only_visible_in_browser": 0,
+ "meta": {
+  "label": "v1 naive: python UA, HTTP only, no retries",
+  "started_at": "2026-11-25 14:55:05",
+  "duration_s": 105.1,
+  "config": {
+   "tiers": [
+    "http"
+   ],
+   "ua": "naive",
+   "browser_mode": "off",
+   "concurrency": 24,
+   "browser_concurrency": 4,
+   "http_retries": 0,
+   "wayback_max_age_days": 730,
+   "label": "v1 naive: python UA, HTTP only, no retries"
+  },
+  "proxy_used": false,
+  "fingerprints": {
+   "public_rules": 7715,
+   "custom_rules": 17,
+   "total": 7732,
+   "regex_compile_errors": 0
+  },
+  "browser_engine": null
+ }
+}

@@ -1,0 +1,26 @@
+Scanning 20 domains | tiers=('http', 'browser', 'dns', 'tls', 'robots', 'wayback') ua=chrome browser=all
+[   1/20] manscaped.com                              ok          browser                      techs=36  seg=E
+[   2/20] feastables.com                             ok          browser                      techs=41  seg=B
+[   3/20] kyliecosmetics.com                         ok          browser                      techs=48  seg=B
+[   4/20] ruggable.com                               ok          browser                      techs=62  seg=B
+[   5/20] mvmt.com                                   ok          browser                      techs=40  seg=A
+[   6/20] colourpop.com                              ok          browser                      techs=61  seg=B
+[   7/20] fentybeauty.com                            ok          browser                      techs=45  seg=C
+[   8/20] drinkolipop.com                            ok          browser                      techs=56  seg=B
+[   9/20] rothys.com                                 ok          browser                      techs=59  seg=A
+[  10/20] bombas.com                                 ok          browser                      techs=44  seg=C
+[  11/20] gymshark.com                               ok          browser                      techs=45  seg=B
+[  12/20] skims.com                                  ok          browser                      techs=41  seg=A
+[  13/20] fashionnova.com                            ok          browser                      techs=38  seg=C
+[  14/20] allbirds.com                               ok          browser                      techs=35  seg=A
+[  15/20] jonesroadbeauty.com                        ok          browser                      techs=59  seg=A
+[  16/20] brooklinen.com                             ok          browser                      techs=65  seg=A
+[  17/20] chubbiesshorts.com                         ok          browser                      techs=41  seg=B
+[  18/20] cutsclothing.com                           ok          browser                      techs=52  seg=A
+[  19/20] trueclassictees.com                        ok          browser                      techs=50  seg=B
+[  20/20] ridge.com                                  ok          browser                      techs=52  seg=A
+
+Done in 230s -> D:\SSD 2\VSAgency\247web\website-tech-scraper\runs\20261125-153651
+status: {'ok': 20}  success_rate=1.0
+unique technologies: 260   total detections: 970   shopify stores: 19
+lead segments: {'A': 8, 'B': 8, 'C': 3, 'E': 1}

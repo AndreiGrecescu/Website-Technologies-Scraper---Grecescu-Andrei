@@ -1,0 +1,10 @@
+run_id,label,started_at,duration_s,domains,ok,ok_via_browser,blocked,parked,dead,unreachable,empty,error,success_rate,unique_techs,total_detections,avg_techs_per_ok,shopify_stores,seg_A,seg_B,seg_C,seg_D,seg_E,ua,browser_mode,tiers,concurrency,browser_concurrency,proxy
+20261125-145650,"v1 naive: python UA, HTTP only, no retries",2026-11-25 14:55:05,105.1,200,141,0,31,1,0,24,3,0,0.705,266,2105,13.8,2,0,1,1,4,32,naive,off,http,24,4,False
+20261125-145854,v2 real browser headers + URL variants + retries,2026-11-25 14:56:52,122.2,200,151,0,21,1,0,25,2,0,0.755,280,2252,13.9,2,0,1,1,5,34,chrome,off,http,24,4,False
+20261125-150104,"v3 + DNS, TLS, robots.txt",2026-11-25 14:58:56,128.3,200,151,0,21,1,8,17,2,0,0.755,333,2593,15.7,2,0,1,1,5,35,chrome,off,http+dns+tls+robots,24,4,False
+20261125-150454,"v4 + headless browser, smart escalation only",2026-11-25 15:01:06,227.8,200,166,30,10,1,8,14,1,0,0.83,387,2877,16.4,2,0,1,1,6,43,chrome,smart,http+browser+dns+tls+robots,24,4,False
+20261125-151242,v5 headless browser on every live site + Wayback fallback,2026-11-25 15:04:56,465.7,200,166,166,10,1,8,13,1,1,0.83,493,3536,20.4,2,0,2,0,9,62,chrome,all,http+browser+dns+tls+robots+wayback,24,4,False
+20261125-152356,"v6 + HTTP/1.1 fallback, bounded browser time, Wayback via CDX API",2026-11-25 15:15:59,477.3,200,166,166,10,1,8,14,1,0,0.83,504,3694,20.4,2,0,2,0,9,67,chrome,all,http+browser+dns+tls+robots+wayback,24,4,False
+20261125-153301,v7 DOM property rules evaluated in live DOM (fixes React/Preact false positives),2026-11-25 15:24:48,493.0,200,166,166,10,1,8,14,1,0,0.83,504,3345,18.6,2,0,2,0,9,66,chrome,all,http+browser+dns+tls+robots+wayback,24,4,False
+20261125-153651,demo: 20 known Shopify DTC brands,2026-11-25 15:33:02,229.1,20,20,20,0,0,0,0,0,0,1.0,260,970,48.5,19,8,8,3,0,1,chrome,all,http+browser+dns+tls+robots+wayback,24,4,False
+20261125-161602,"demo Shopify, Light, with learned app ids",2026-11-25 16:15:05,56.5,20,17,0,3,0,0,0,0,0,0.85,121,502,26.7,17,6,4,7,0,0,chrome,off,http+dns+tls+robots,4,4,False

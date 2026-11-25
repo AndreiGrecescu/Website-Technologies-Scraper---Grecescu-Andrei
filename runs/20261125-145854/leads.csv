@@ -1,0 +1,201 @@
+domain,status,platform,segment,segment_label,lead_score,shopify_analytics_competitors,behavior_analytics,product_analytics,web_analytics,shopify_app_pixels,pitch,proof
+unnames.com,ok,Shopify,B,Shopify + generic analytics only (upgrade campaign),40,,,,Google Analytics,4,Shopify store relying on Google Analytics - pitch Shopify-native analytics upgrade.,"Google Analytics: [http] shopify web pixel apiClientId=1780363 type=APP=ion"": ""{\""config\"":\""{\\\""google_tag_ids\\\"":[\\\""G-TKYB5MVCFY\\\"",\\\""GT-T94DBHVB\\\""],\\\""target_country\\\"":\ || Shopify: [http] meta shopify-digital-wallet=/66583429255/digital_wallets/dialog"
+herbalwise.ie,ok,Shopify,C,"Shopify, no 3rd-party analytics found (greenfield)",30,,,,,5,Shopify store with no 3rd-party analytics detected - greenfield.,Shopify: [http] meta shopify-digital-wallet=/17088243/digital_wallets/dialog
+disneystore.com,ok,Salesforce Commerce Cloud,D,Other ecommerce platform + analytics (secondary),20,,,,Cloudflare Browser Insights,0,Salesforce Commerce Cloud store using Cloudflare Browser Insights - nurture for a Shopify migration.,Cloudflare Browser Insights: [http] script src https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092
+gutendorf.ru,ok,WooCommerce,D,Other ecommerce platform + analytics (secondary),20,,,,Yandex.Metrika,0,WooCommerce store using Yandex.Metrika - nurture for a Shopify migration.,"Yandex.Metrika: [http] inline script ) (window, document, ""script"", ""https://mc.yandex.ru/metrika/tag.js"", ""ym""); ym(70826719, ""init"", { clickmap:true, trackLinks:t"
+lojatatical.com.br,ok,Magento,D,Other ecommerce platform + analytics (secondary),20,,,,Google Analytics,0,Magento store using Google Analytics - nurture for a Shopify migration.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-G6KPZWXBZV
+weducars.co.za,ok,WooCommerce,D,Other ecommerce platform + analytics (secondary),20,,,,Google Analytics,0,WooCommerce store using Google Analytics - nurture for a Shopify migration.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-VC52G0GYTY
+joburgheritage.org.za,ok,WooCommerce,D,Other ecommerce platform + analytics (secondary),20,,,,Google Analytics,0,WooCommerce store using Google Analytics - nurture for a Shopify migration.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=GT-TNG7DSPN
+westchesterpointechiro.com,ok,,E,Other CMS / site + analytics (secondary),13,,,,Google Analytics; Matomo Analytics,0,"Website using Google Analytics, Matomo Analytics - low priority.","Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-128392001-1 || Matomo Analytics: [http] inline script script')[0];     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);   })();"
+handycars.com,ok,Visual Composer,E,Other CMS / site + analytics (secondary),13,,,,Google Analytics; Matomo Analytics,0,"Visual Composer using Google Analytics, Matomo Analytics - low priority.","Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-MNCGN50BMW || Matomo Analytics: [http] inline script script')[0];     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);   })();"
+jonesbuickgmc.com,ok,Adobe Experience Manager,E,Other CMS / site + analytics (secondary),13,,,,Cloudflare Browser Insights; Google Analytics,0,"Adobe Experience Manager using Cloudflare Browser Insights, Google Analytics - low priority.",Cloudflare Browser Insights: [http] script src https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015 || Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-DVN36CSKWF
+katesworldtravel.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=GT-5TGHL88B
+imgs.co.jp,blocked,Adobe Experience Manager,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Adobe Experience Manager using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-154923112-2
+doringpoort.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-85WL1D39L8
+fsbwyoming.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=GT-MB6DZBC8
+coastwidemechanicalcentralcoast.com.au,ok,Divi,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Divi using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-2508373E7X
+jobresourcecentre.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-CB7FD4R1BF
+253media.com,ok,Webflow,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Webflow using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=AW-664401435
+genesisny.net,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src http://www.google-analytics.com/urchin.js
+avocatalinamanciu.ro,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-273560545-1
+dssfla.com,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,WordPress using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-LNGTVS4XD4
+4stonebuildings.com,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,WordPress using Google Analytics - low priority.,Google Analytics: [http] script src //www.googletagmanager.com/gtag/js?id=G-8X30MHD2PV
+loizillon.com,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-HCJ5MXKWJ2
+boken.ch,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Matomo Analytics,0,WordPress using Matomo Analytics - low priority.,"Matomo Analytics: [http] inline script /boken.ch\/wp-content\/uploads\/matomo\/matomo.js""; s.parentNode.insertBefore(g,s);"
+restwellstreetmedicalcentre.com.au,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-FXN3LYRQ8Y
+365outsource.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-8749295-4
+2020wealthadvisory.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Cloudflare Browser Insights,0,Elementor using Cloudflare Browser Insights - low priority.,Cloudflare Browser Insights: [http] script src https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092
+aaice.net,ok,Divi,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Divi using Google Analytics - low priority.,Google Analytics: [http] script src //www.googletagmanager.com/gtag/js?id=G-GVQ0PXCRTK
+laplumedelisibilite.fr,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=<!-- Google tag (gtag.js) --> <script async src=
+2ldm.com,ok,Elementor,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Elementor using Google Analytics - low priority.,Google Analytics: [http] script src //www.googletagmanager.com/gtag/js?id=G-8472X4GSTK
+phucankhanggroup.com,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-GYD4T4CEQ4
+2-com.net,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-TY0XG5MCQR
+insieme.stanford.edu,ok,Drupal,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Drupal using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-986R8TE788
+mysterion.hr,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,WordPress using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-78921934-1
+ideenhunger.com,ok,Webflow,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Webflow using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-4691ECHTYM
+a3sec.com,ok,HubSpot CMS Hub,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,HubSpot CMS Hub using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-BGGEQ32B1J
+nicholsonchiro.com,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,WordPress using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-CS7B4Q6T4L
+chiantifiorentino.it,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA -42007114-1
+fluxar.com.ar,ok,SiteOrigin Page Builder,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,SiteOrigin Page Builder using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=G-56Q29FK9B1
+davidloeppke.com,ok,,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,Website using Google Analytics - low priority.,Google Analytics: [http] script src https://www.googletagmanager.com/gtag/js?id=UA-43807950-1
+lighthouseprc.org,ok,WordPress,E,Other CMS / site + analytics (secondary),10,,,,Google Analytics,0,WordPress using Google Analytics - low priority.,"Google Analytics: [http] inline script ents);}   gtag('js', new Date());    gtag('config', 'UA-100992585-1');"
+rivithead.com,ok,Cart Functionality,E,Other CMS / site + analytics (secondary),10,,,,Matomo Analytics,0,Cart Functionality using Matomo Analytics - low priority.,"Matomo Analytics: [http] inline script async=true;g.src=u+'includes/javascript/matomo.js';s.parentNode.insertBefore(g,s);})();"
+trs-energycontrol.de,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+gapconstructionwi.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+largsbaychiropractic.com.au,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+empresasori.com,ok,WooCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+cultivateventures.co.nz,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+radxmobile.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+broganlmt.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+orifoodsco.com,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+lorenz-baumarkt.de,ok,Shopware,F,No relevant signal / unreachable,10,,,,,0,,
+jenniferbacksteininteriors.com,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+northshoremacnut.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+gitesducharmois.fr,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+hoffmaninstitute.co.uk,ok,WooCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+appelpsychotherapy.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+pcb-cpb.com,ok,Wix eCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+redpants.jp,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+koniczynka.info.pl,ok,WooCommerce,F,No relevant signal / unreachable,10,,,,,0,,
+thomasrosenbaum.com,ok,Squarespace Commerce,F,No relevant signal / unreachable,10,,,,,0,,
+jcmobilecigars.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+somalidisablesupport.com,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+yourfamilylines.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+szentkristofudvarhaz.hu,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+chavchavadze-m2-41-tbilisi.booked.net,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+xn--kleoghvidevareservice-qfc.dk,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+gogroupauto.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+231selfstorage.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+globalrn.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+cytofastmed.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+5starremoval.weebly.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+coenzwezerijnen.nu,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+3xd.co.uk,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+clotting-guide.online,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+38inspect.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+newbeaverborough.org,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+rsthealthcare.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+dioxoxigenio.com.br,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+msc-manching.de,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+sgsextremaratio.it,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+amourfinder.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+ferienwohnung-kastell.de,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+velvety.eu,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+doortodoororganics.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+kentpropertyrenovations.co.uk,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+fisherinvestments.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+rionecontrastanga.net,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+stwannas.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+familybroker.cz,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+5w.design,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+huberautomotive.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+marien-apotheke-grefrath-app.de,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+centreconsiliereavort.ro,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+infoaboutnetwork.com,ok,GenerateBlocks,F,No relevant signal / unreachable,0,,,,,0,,
+11853prospecthill.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+passwordstore.it,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+abcdpinturas.com.br,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+maniaupiekszania.pl,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+sprucemeadowsmd.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+natedea.co.uk,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+haus-muehlenfeld-pommerby.de,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+arenaskolor.se,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+den-a-sha.co.jp,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+aida-cruises.at,ok,Adobe Experience Manager,F,No relevant signal / unreachable,0,,,,,0,,
+lets.gr,empty,,F,No relevant signal / unreachable,0,,,,,0,,
+skywayrestaurants.net,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+hnafirm.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+itsolutions24.pl,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+ecolab.com,ok,Sitecore,F,No relevant signal / unreachable,0,,,,,0,,
+mehmetefendimacedonia.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+cei-expertises.fr,ok,Divi,F,No relevant signal / unreachable,0,,,,,0,,
+seringa-safaris.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+1planettechnologies.weebly.com,ok,Weebly,F,No relevant signal / unreachable,0,,,,,0,,
+soziale-dreigliederung.de,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+premierhomeremodeling.net,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+bas-ingenieria.cl,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+produkttheater.de,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+antikebau.de,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+3strandschurch.org,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+alabamabuildingcontractor.com,ok,Divi,F,No relevant signal / unreachable,0,,,,,0,,
+resourceservicesolutions.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+skywardspeech.com.au,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+sevecoitalia.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+nielsbirk.dk,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+branson-connection.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+roccofortehotels.cn,ok,Umbraco,F,No relevant signal / unreachable,0,,,,,0,,
+everhartsoutdoor.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+europeaninns.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+massageforworldpeace.com,ok,MyWebsite,F,No relevant signal / unreachable,0,,,,,0,,
+amaronbattery.in,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+3bsexcavating.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+weissbauchpapageien.de,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+959marine.com,ok,Weebly,F,No relevant signal / unreachable,0,,,,,0,,
+hansis-knusperhendl-foodtruck.eatbu.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+juanmunozhomesmart.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+buchhaltungsservice-koenig.de,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+solvos.nl,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+261welfarefund.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+costa-coffee.be,ok,Sanity,F,No relevant signal / unreachable,0,,,,,0,,
+startravelcompany.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+disinfestazioniepiscine.it,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+lscms.org,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+3dwealthadvisory.com,ok,Divi,F,No relevant signal / unreachable,0,,,,,0,,
+jackwills.com,ok,Amplience,F,No relevant signal / unreachable,0,,,,,0,,
+nevsproductions.com,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+kande-hoikuen.ed.jp,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+deerfieldbeachautomall.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+layer7innovations.ca,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+makpharma-eg.com,ok,GoDaddy Website Builder,F,No relevant signal / unreachable,0,,,,,0,,
+ejc-courtage-assurances.fr,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+ferrateoxidant.com,ok,Elementor,F,No relevant signal / unreachable,0,,,,,0,,
+oakwell.vet,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+howellmotors.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+eclairage-solaire-occitanie.com,unreachable,Wix,F,No relevant signal / unreachable,0,,,,,0,,
+cmc01village.com,parked,,F,No relevant signal / unreachable,0,,,,,0,,
+maiquotes.net,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+cmresolutions.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+wglchurch.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+nwmotorinn.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+dorpsbelangen.nu,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+littlerockafamily.de,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+evelynanders.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+domekvefaru.com,ok,WebNode,F,No relevant signal / unreachable,0,,,,,0,,
+sdmdjentertainment.com,ok,GoDaddy Website Builder,F,No relevant signal / unreachable,0,,,,,0,,
+elcolegiocongresosyrestaurante.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+powercleaning.services,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+stoperbis.pl,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+verticalcommunitychurch.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+allegrocreditbeta.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+concrete-fitness.edan.io,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+la-residenza-del-principe-rome-it.booked.net,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+xn--jobvrkstedet-9cb.nu,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+brucebournesold.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+11thhourracing.org,ok,Webflow,F,No relevant signal / unreachable,0,,,,,0,,
+miratrade.com.tr,empty,,F,No relevant signal / unreachable,0,,,,,0,,
+freo.com.au,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+bata.edu.hu,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+3-energie-klaas.de,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+labdemo.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+1ststopsupply.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+celiabedilia.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+wrinkle-pei.cz,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+footasylum.com,ok,Cart Functionality,F,No relevant signal / unreachable,0,,,,,0,,
+2agateway.com,ok,Bricks,F,No relevant signal / unreachable,0,,,,,0,,
+ledestjernenstu.dk,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+1stlocksheathscouts.org.uk,blocked,,F,No relevant signal / unreachable,0,,,,,0,,
+tamcconstruction.net,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+abbikadabbisbakingco.com,ok,Weebly,F,No relevant signal / unreachable,0,,,,,0,,
+deepseass.com,ok,SiteOrigin Page Builder,F,No relevant signal / unreachable,0,,,,,0,,
+aardvarkelectriccorp.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+needaphysio.com,ok,Wix,F,No relevant signal / unreachable,0,,,,,0,,
+100wwcstlw.org,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+shapirolawfirm.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+joseph-herber.business.site,unreachable,Google My Business,F,No relevant signal / unreachable,0,,,,,0,,
+arol.cl,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+sindacatobadanti.it,blocked,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+1stclairavewest.com,unreachable,,F,No relevant signal / unreachable,0,,,,,0,,
+5rcircleprocess.weebly.com,ok,Weebly,F,No relevant signal / unreachable,0,,,,,0,,
+unitedveterinaryservice.com,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,
+construccionesyatecnicas.com,ok,,F,No relevant signal / unreachable,0,,,,,0,,
+bfnelson.it,ok,WordPress,F,No relevant signal / unreachable,0,,,,,0,,

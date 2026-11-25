@@ -1,0 +1,269 @@
+{
+ "domains": 20,
+ "status": {
+  "ok": 20
+ },
+ "success_rate": 1.0,
+ "ok_via_browser": 20,
+ "blocked_by": {},
+ "unreachable_reasons": {},
+ "unique_techs": 260,
+ "total_detections": 970,
+ "avg_techs_per_ok": 48.5,
+ "top_techs": [
+  [
+   "Cloudflare",
+   20
+  ],
+  [
+   "HSTS",
+   20
+  ],
+  [
+   "Open Graph",
+   19
+  ],
+  [
+   "Shopify",
+   19
+  ],
+  [
+   "Priority Hints",
+   18
+  ],
+  [
+   "Cloudflare Bot Management",
+   17
+  ],
+  [
+   "Google Tag Manager",
+   17
+  ],
+  [
+   "HTTP/3",
+   17
+  ],
+  [
+   "core-js",
+   17
+  ],
+  [
+   "Let's Encrypt",
+   16
+  ],
+  [
+   "Shopify Analytics (native)",
+   16
+  ],
+  [
+   "Google Analytics",
+   15
+  ],
+  [
+   "Microsoft 365",
+   14
+  ],
+  [
+   "Amazon Web Services",
+   14
+  ],
+  [
+   "Meta",
+   14
+  ],
+  [
+   "Apple Pay",
+   13
+  ],
+  [
+   "PayPal",
+   13
+  ],
+  [
+   "Shopify Web Pixels Manager",
+   13
+  ],
+  [
+   "Apple iCloud Mail",
+   12
+  ],
+  [
+   "Swiper",
+   12
+  ],
+  [
+   "Anthropic",
+   12
+  ],
+  [
+   "OneTrust",
+   11
+  ],
+  [
+   "Shop Pay",
+   11
+  ],
+  [
+   "Cart Functionality",
+   11
+  ],
+  [
+   "Klaviyo",
+   11
+  ],
+  [
+   "Facebook Pixel",
+   10
+  ],
+  [
+   "React",
+   10
+  ],
+  [
+   "Sentry",
+   10
+  ],
+  [
+   "lit-element",
+   10
+  ],
+  [
+   "lit-html",
+   10
+  ],
+  [
+   "Google Font API",
+   9
+  ],
+  [
+   "Atlassian Cloud",
+   9
+  ],
+  [
+   "Amazon S3",
+   9
+  ],
+  [
+   "Tailwind CSS",
+   9
+  ],
+  [
+   "OpenAI",
+   8
+  ],
+  [
+   "Google Workspace",
+   8
+  ],
+  [
+   "Klaviyo Reviews",
+   8
+  ],
+  [
+   "Venmo",
+   8
+  ],
+  [
+   "jsDelivr",
+   8
+  ],
+  [
+   "TikTok Pixel",
+   8
+  ]
+ ],
+ "shopify_stores": 19,
+ "segments": {
+  "A": 8,
+  "B": 8,
+  "C": 3,
+  "E": 1
+ },
+ "competitor_usage": [
+  [
+   "Google Analytics",
+   15
+  ],
+  [
+   "Snowplow",
+   6
+  ],
+  [
+   "Elevar",
+   5
+  ],
+  [
+   "Northbeam",
+   4
+  ],
+  [
+   "Microsoft Clarity",
+   3
+  ],
+  [
+   "Amplitude",
+   2
+  ],
+  [
+   "Cloudflare Browser Insights",
+   2
+  ],
+  [
+   "Mixpanel",
+   1
+  ],
+  [
+   "Littledata",
+   1
+  ],
+  [
+   "Segment",
+   1
+  ],
+  [
+   "Contentsquare",
+   1
+  ],
+  [
+   "RudderStack",
+   1
+  ]
+ ],
+ "evidence_by_source": {
+  "http": 352,
+  "browser": 1455,
+  "dns": 233,
+  "tls": 16
+ },
+ "detections_only_visible_in_browser": 473,
+ "meta": {
+  "label": "demo: 20 known Shopify DTC brands",
+  "started_at": "2026-11-25 15:33:02",
+  "duration_s": 229.1,
+  "config": {
+   "tiers": [
+    "http",
+    "browser",
+    "dns",
+    "tls",
+    "robots",
+    "wayback"
+   ],
+   "ua": "chrome",
+   "browser_mode": "all",
+   "concurrency": 24,
+   "browser_concurrency": 4,
+   "http_retries": 2,
+   "wayback_max_age_days": 730,
+   "label": "demo: 20 known Shopify DTC brands"
+  },
+  "proxy_used": false,
+  "fingerprints": {
+   "public_rules": 7715,
+   "custom_rules": 17,
+   "total": 7732,
+   "regex_compile_errors": 0
+  },
+  "browser_engine": "chrome 157.0.8103.79"
+ }
+}

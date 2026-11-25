@@ -1,0 +1,206 @@
+Scanning 200 domains | tiers=('http',) ua=naive browser=off
+[   1/200] jcmobilecigars.com                         unreachable connect: [Errno 11001] getad techs=0   seg=F
+[   2/200] 231selfstorage.com                         blocked     cloudflare                   techs=5   seg=F
+[   3/200] 3xd.co.uk                                  blocked     cloudflare                   techs=5   seg=F
+[   4/200] chavchavadze-m2-41-tbilisi.booked.net      unreachable HTTP 404                     techs=3   seg=F
+[   5/200] xn--kleoghvidevareservice-qfc.dk           ok          http                         techs=14  seg=F
+[   6/200] 5starremoval.weebly.com                    unreachable HTTP 404                     techs=4   seg=F
+[   7/200] gapconstructionwi.com                      ok          http                         techs=18  seg=F
+[   8/200] msc-manching.de                            ok          http                         techs=14  seg=F
+[   9/200] newbeaverborough.org                       ok          http                         techs=16  seg=F
+[  10/200] szentkristofudvarhaz.hu                    ok          http                         techs=9   seg=F
+[  11/200] gutendorf.ru                               ok          http                         techs=15  seg=D
+[  12/200] disneystore.com                            ok          http                         techs=18  seg=F
+[  13/200] 38inspect.com                              ok          http                         techs=18  seg=F
+[  14/200] largsbaychiropractic.com.au                ok          http                         techs=11  seg=F
+[  15/200] rsthealthcare.com                          ok          http                         techs=7   seg=F
+[  16/200] sgsextremaratio.it                         ok          http                         techs=9   seg=F
+[  17/200] somalidisablesupport.com                   ok          http                         techs=18  seg=F
+[  18/200] dioxoxigenio.com.br                        ok          http                         techs=4   seg=F
+[  19/200] clotting-guide.online                      ok          http                         techs=14  seg=F
+[  20/200] katesworldtravel.com                       ok          http                         techs=22  seg=E
+[  21/200] ferienwohnung-kastell.de                   unreachable connect: [Errno 11001] getad techs=0   seg=F
+[  22/200] globalrn.com                               unreachable HTTP 526                     techs=4   seg=F
+[  23/200] trs-energycontrol.de                       ok          http                         techs=14  seg=F
+[  24/200] coastwidemechanicalcentralcoast.com.au     ok          http                         techs=17  seg=E
+[  25/200] yourfamilylines.com                        ok          http                         techs=4   seg=F
+[  26/200] doringpoort.com                            ok          http                         techs=19  seg=E
+[  27/200] 5w.design                                  blocked     cloudflare                   techs=5   seg=F
+[  28/200] jobresourcecentre.com                      ok          http                         techs=25  seg=E
+[  29/200] fisherinvestments.com                      blocked     unknown WAF                  techs=2   seg=F
+[  30/200] centreconsiliereavort.ro                   ok          http                         techs=13  seg=F
+[  31/200] doortodoororganics.com                     ok          http                         techs=7   seg=F
+[  32/200] 11853prospecthill.com                      unreachable connect: [Errno 11001] getad techs=0   seg=F
+[  33/200] kentpropertyrenovations.co.uk              ok          http                         techs=14  seg=F
+[  34/200] coenzwezerijnen.nu                         unreachable connect: All connection atte techs=0   seg=F
+[  35/200] huberautomotive.com                        blocked     akamai                       techs=2   seg=F
+[  36/200] avocatalinamanciu.ro                       ok          http                         techs=26  seg=E
+[  37/200] genesisny.net                              ok          http                         techs=4   seg=E
+[  38/200] 253media.com                               ok          http                         techs=21  seg=E
+[  39/200] 4stonebuildings.com                        ok          http                         techs=21  seg=E
+[  40/200] gogroupauto.com                            blocked     akamai                       techs=1   seg=F
+[  41/200] empresasori.com                            ok          http                         techs=24  seg=F
+[  42/200] amourfinder.com                            ok          http                         techs=6   seg=F
+[  43/200] rionecontrastanga.net                      ok          http                         techs=20  seg=F
+[  44/200] infoaboutnetwork.com                       ok          http                         techs=6   seg=F
+[  45/200] cytofastmed.com                            ok          http                         techs=27  seg=F
+[  46/200] lojatatical.com.br                         ok          http                         techs=17  seg=D
+[  47/200] velvety.eu                                 blocked     unknown WAF                  techs=1   seg=F
+[  48/200] imgs.co.jp                                 ok          http                         techs=11  seg=E
+[  49/200] fsbwyoming.com                             ok          http                         techs=24  seg=E
+[  50/200] natedea.co.uk                              blocked     cloudflare                   techs=5   seg=F
+[  51/200] marien-apotheke-grefrath-app.de            ok          http                         techs=3   seg=F
+[  52/200] stwannas.com                               blocked     cloudflare                   techs=5   seg=F
+[  53/200] 2020wealthadvisory.com                     ok          http                         techs=21  seg=F
+[  54/200] haus-muehlenfeld-pommerby.de               blocked     unknown WAF                  techs=2   seg=F
+[  55/200] familybroker.cz                            unreachable HTTP 404                     techs=3   seg=F
+[  56/200] sprucemeadowsmd.com                        ok          http                         techs=12  seg=F
+[  57/200] aida-cruises.at                            blocked     unknown WAF                  techs=3   seg=F
+[  58/200] aaice.net                                  ok          http                         techs=24  seg=E
+[  59/200] boken.ch                                   ok          http                         techs=16  seg=E
+[  60/200] arenaskolor.se                             ok          http                         techs=17  seg=F
+[  61/200] maniaupiekszania.pl                        ok          http                         techs=21  seg=F
+[  62/200] weducars.co.za                             ok          http                         techs=27  seg=D
+[  63/200] itsolutions24.pl                           ok          http                         techs=13  seg=F
+[  64/200] restwellstreetmedicalcentre.com.au         ok          http                         techs=10  seg=E
+[  65/200] mehmetefendimacedonia.com                  ok          http                         techs=8   seg=F
+[  66/200] 2ldm.com                                   ok          http                         techs=26  seg=E
+[  67/200] soziale-dreigliederung.de                  blocked     unknown WAF                  techs=3   seg=F
+[  68/200] loizillon.com                              blocked     unknown WAF                  techs=2   seg=F
+[  69/200] skywayrestaurants.net                      ok          http                         techs=4   seg=F
+[  70/200] 1planettechnologies.weebly.com             ok          http                         techs=10  seg=F
+[  71/200] passwordstore.it                           ok          http                         techs=14  seg=F
+[  72/200] dssfla.com                                 ok          http                         techs=22  seg=E
+[  73/200] produkttheater.de                          blocked     unknown WAF                  techs=3   seg=F
+[  74/200] bas-ingenieria.cl                          ok          http                         techs=8   seg=F
+[  75/200] premierhomeremodeling.net                  ok          http                         techs=4   seg=F
+[  76/200] 365outsource.com                           ok          http                         techs=25  seg=E
+[  77/200] unnames.com                                ok          http                         techs=18  seg=B
+[  78/200] laplumedelisibilite.fr                     ok          http                         techs=11  seg=E
+[  79/200] 3strandschurch.org                         blocked     cloudflare                   techs=5   seg=F
+[  80/200] ecolab.com                                 blocked     akamai                       techs=3   seg=F
+[  81/200] seringa-safaris.com                        blocked     cloudflare                   techs=5   seg=F
+[  82/200] resourceservicesolutions.com               ok          http                         techs=7   seg=F
+[  83/200] lets.gr                                    empty       no content                   techs=3   seg=F
+[  84/200] nielsbirk.dk                               ok          http                         techs=4   seg=F
+[  85/200] alabamabuildingcontractor.com              ok          http                         techs=14  seg=F
+[  86/200] europeaninns.com                           ok          http                         techs=2   seg=F
+[  87/200] handycars.com                              ok          http                         techs=19  seg=E
+[  88/200] westchesterpointechiro.com                 ok          http                         techs=12  seg=E
+[  89/200] phucankhanggroup.com                       ok          http                         techs=16  seg=E
+[  90/200] den-a-sha.co.jp                            ok          http                         techs=4   seg=F
+[  91/200] cei-expertises.fr                          ok          http                         techs=21  seg=F
+[  92/200] hnafirm.com                                ok          http                         techs=14  seg=F
+[  93/200] sevecoitalia.com                           ok          http                         techs=10  seg=F
+[  94/200] amaronbattery.in                           ok          http                         techs=5   seg=F
+[  95/200] 2-com.net                                  ok          http                         techs=8   seg=E
+[  96/200] cultivateventures.co.nz                    ok          http                         techs=12  seg=F
+[  97/200] 3bsexcavating.com                          blocked     cloudflare                   techs=5   seg=F
+[  98/200] roccofortehotels.cn                        blocked     akamai                       techs=3   seg=F
+[  99/200] 261welfarefund.com                         blocked     cloudflare                   techs=5   seg=F
+[ 100/200] radxmobile.com                             ok          http                         techs=14  seg=F
+[ 101/200] 3dwealthadvisory.com                       ok          http                         techs=18  seg=F
+[ 102/200] weissbauchpapageien.de                     blocked     cloudflare                   techs=5   seg=F
+[ 103/200] everhartsoutdoor.com                       blocked     unknown WAF                  techs=3   seg=F
+[ 104/200] massageforworldpeace.com                   ok          http                         techs=5   seg=F
+[ 105/200] 959marine.com                              ok          http                         techs=11  seg=F
+[ 106/200] buchhaltungsservice-koenig.de              ok          http                         techs=13  seg=F
+[ 107/200] hansis-knusperhendl-foodtruck.eatbu.com    ok          http                         techs=10  seg=F
+[ 108/200] skywardspeech.com.au                       ok          http                         techs=23  seg=F
+[ 109/200] lscms.org                                  ok          http                         techs=16  seg=F
+[ 110/200] kande-hoikuen.ed.jp                        ok          http                         techs=5   seg=F
+[ 111/200] layer7innovations.ca                       ok          http                         techs=9   seg=F
+[ 112/200] solvos.nl                                  ok          http                         techs=6   seg=F
+[ 113/200] antikebau.de                               unreachable HTTP 500                     techs=3   seg=F
+[ 114/200] insieme.stanford.edu                       ok          http                         techs=16  seg=E
+[ 115/200] broganlmt.com                              ok          http                         techs=18  seg=F
+[ 116/200] makpharma-eg.com                           ok          http                         techs=6   seg=F
+[ 117/200] branson-connection.com                     unreachable RemoteProtocolError: Server  techs=0   seg=F
+[ 118/200] ejc-courtage-assurances.fr                 ok          http                         techs=7   seg=F
+[ 119/200] costa-coffee.be                            ok          http                         techs=14  seg=F
+[ 120/200] deerfieldbeachautomall.com                 blocked     akamai                       techs=2   seg=F
+[ 121/200] ferrateoxidant.com                         ok          http                         techs=15  seg=F
+[ 122/200] mysterion.hr                               ok          http                         techs=31  seg=E
+[ 123/200] nwmotorinn.com                             unreachable connect: [Errno 11001] getad techs=0   seg=F
+[ 124/200] oakwell.vet                                ok          http                         techs=20  seg=F
+[ 125/200] wglchurch.com                              unreachable connect: [Errno 11001] getad techs=0   seg=F
+[ 126/200] juanmunozhomesmart.com                     blocked     akamai                       techs=2   seg=F
+[ 127/200] littlerockafamily.de                       unreachable connect: [Errno 11001] getad techs=0   seg=F
+[ 128/200] orifoodsco.com                             ok          http                         techs=12  seg=F
+[ 129/200] sdmdjentertainment.com                     ok          http                         techs=8   seg=F
+[ 130/200] lorenz-baumarkt.de                         ok          http                         techs=11  seg=F
+[ 131/200] cmc01village.com                           parked      domain parking page          techs=0   seg=F
+[ 132/200] cmresolutions.com                          ok          http                         techs=3   seg=F
+[ 133/200] abcdpinturas.com.br                        unreachable HTTP 404                     techs=2   seg=F
+[ 134/200] jackwills.com                              ok          http                         techs=13  seg=F
+[ 135/200] verticalcommunitychurch.com                unreachable connect: [Errno 11001] getad techs=0   seg=F
+[ 136/200] northshoremacnut.com                       blocked     unknown WAF                  techs=0   seg=F
+[ 137/200] stoperbis.pl                               ok          http                         techs=4   seg=F
+[ 138/200] howellmotors.com                           blocked     akamai                       techs=2   seg=F
+[ 139/200] evelynanders.com                           blocked     unknown WAF                  techs=4   seg=F
+[ 140/200] concrete-fitness.edan.io                   blocked     cloudflare                   techs=3   seg=F
+[ 141/200] ideenhunger.com                            ok          http                         techs=18  seg=E
+[ 142/200] nevsproductions.com                        unreachable HTTP 404                     techs=2   seg=F
+[ 143/200] disinfestazioniepiscine.it                 ok          http                         techs=20  seg=F
+[ 144/200] domekvefaru.com                            ok          http                         techs=7   seg=F
+[ 145/200] powercleaning.services                     ok          http                         techs=15  seg=E
+[ 146/200] hoffmaninstitute.co.uk                     ok          http                         techs=21  seg=F
+[ 147/200] a3sec.com                                  ok          http                         techs=17  seg=E
+[ 148/200] jonesbuickgmc.com                          ok          http                         techs=16  seg=E
+[ 149/200] xn--jobvrkstedet-9cb.nu                    ok          http                         techs=13  seg=F
+[ 150/200] elcolegiocongresosyrestaurante.com         ok          http                         techs=6   seg=F
+[ 151/200] gitesducharmois.fr                         ok          http                         techs=14  seg=F
+[ 152/200] la-residenza-del-principe-rome-it.booked.n unreachable HTTP 404                     techs=3   seg=F
+[ 153/200] 11thhourracing.org                         ok          http                         techs=10  seg=F
+[ 154/200] jenniferbacksteininteriors.com             ok          http                         techs=10  seg=F
+[ 155/200] nicholsonchiro.com                         ok          http                         techs=24  seg=E
+[ 156/200] freo.com.au                                ok          http                         techs=5   seg=F
+[ 157/200] dorpsbelangen.nu                           ok          http                         techs=19  seg=F
+[ 158/200] 3-energie-klaas.de                         ok          http                         techs=7   seg=F
+[ 159/200] maiquotes.net                              ok          http                         techs=11  seg=F
+[ 160/200] bata.edu.hu                                ok          http                         techs=10  seg=F
+[ 161/200] labdemo.com                                ok          http                         techs=16  seg=F
+[ 162/200] allegrocreditbeta.com                      ok          http                         techs=15  seg=F
+[ 163/200] davidloeppke.com                           ok          http                         techs=17  seg=E
+[ 164/200] brucebournesold.com                        blocked     akamai                       techs=2   seg=F
+[ 165/200] 1ststopsupply.com                          unreachable HTTP 409                     techs=3   seg=F
+[ 166/200] tamcconstruction.net                       unreachable connect: [Errno 11001] getad techs=0   seg=F
+[ 167/200] pcb-cpb.com                                ok          http                         techs=19  seg=F
+[ 168/200] wrinkle-pei.cz                             ok          http                         techs=3   seg=F
+[ 169/200] ledestjernenstu.dk                         ok          http                         techs=24  seg=F
+[ 170/200] appelpsychotherapy.com                     ok          http                         techs=14  seg=F
+[ 171/200] 2agateway.com                              ok          http                         techs=17  seg=F
+[ 172/200] 1stlocksheathscouts.org.uk                 blocked     cloudflare                   techs=5   seg=F
+[ 173/200] herbalwise.ie                              ok          http                         techs=19  seg=C
+[ 174/200] fluxar.com.ar                              ok          http                         techs=29  seg=E
+[ 175/200] eclairage-solaire-occitanie.com            unreachable HTTP 404                     techs=3   seg=F
+[ 176/200] aardvarkelectriccorp.com                   unreachable HTTP 409                     techs=3   seg=F
+[ 177/200] 100wwcstlw.org                             ok          http                         techs=7   seg=F
+[ 178/200] shapirolawfirm.com                         ok          http                         techs=18  seg=F
+[ 179/200] 5rcircleprocess.weebly.com                 ok          http                         techs=11  seg=F
+[ 180/200] abbikadabbisbakingco.com                   ok          http                         techs=10  seg=F
+[ 181/200] needaphysio.com                            ok          http                         techs=8   seg=F
+[ 182/200] redpants.jp                                ok          http                         techs=12  seg=F
+[ 183/200] koniczynka.info.pl                         ok          http                         techs=25  seg=F
+[ 184/200] lighthouseprc.org                          ok          http                         techs=19  seg=E
+[ 185/200] unitedveterinaryservice.com                ok          http                         techs=17  seg=F
+[ 186/200] arol.cl                                    ok          http                         techs=5   seg=F
+[ 187/200] construccionesyatecnicas.com               ok          http                         techs=9   seg=F
+[ 188/200] bfnelson.it                                ok          http                         techs=13  seg=F
+[ 189/200] miratrade.com.tr                           empty       no content                   techs=3   seg=F
+[ 190/200] 1stclairavewest.com                        unreachable HTTP 409                     techs=3   seg=F
+[ 191/200] thomasrosenbaum.com                        ok          http                         techs=12  seg=F
+[ 192/200] celiabedilia.com                           ok          http                         techs=4   seg=F
+[ 193/200] deepseass.com                              ok          http                         techs=18  seg=F
+[ 194/200] joseph-herber.business.site                unreachable HTTP 404                     techs=2   seg=F
+[ 195/200] chiantifiorentino.it                       empty       no content                   techs=4   seg=F
+[ 196/200] rivithead.com                              ok          http                         techs=9   seg=E
+[ 197/200] sindacatobadanti.it                        blocked     unknown WAF                  techs=12  seg=F
+[ 198/200] footasylum.com                             ok          http                         techs=15  seg=F
+[ 199/200] joburgheritage.org.za                      ok          http                         techs=22  seg=D
+[ 200/200] startravelcompany.com                      unreachable timeout                      techs=0   seg=F
+
+Done in 106s -> D:\SSD 2\VSAgency\247web\website-tech-scraper\runs\20261125-145650
+status: {'unreachable': 24, 'ok': 141, 'blocked': 31, 'empty': 3, 'parked': 1}  success_rate=0.705
+unique technologies: 266   total detections: 2105   shopify stores: 2
+lead segments: {'F': 162, 'D': 4, 'E': 32, 'B': 1, 'C': 1}

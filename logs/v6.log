@@ -1,0 +1,206 @@
+Scanning 200 domains | tiers=('http', 'browser', 'dns', 'tls', 'robots', 'wayback') ua=chrome browser=all
+[   1/200] jcmobilecigars.com                         dead        NXDOMAIN                     techs=0   seg=F
+[   2/200] 231selfstorage.com                         ok          browser                      techs=22  seg=E
+[   3/200] trs-energycontrol.de                       ok          browser                      techs=17  seg=D
+[   4/200] xn--kleoghvidevareservice-qfc.dk           ok          browser                      techs=18  seg=F
+[   5/200] 3xd.co.uk                                  ok          browser                      techs=34  seg=F
+[   6/200] dioxoxigenio.com.br                        ok          browser                      techs=6   seg=F
+[   7/200] somalidisablesupport.com                   ok          browser                      techs=24  seg=F
+[   8/200] szentkristofudvarhaz.hu                    ok          browser                      techs=13  seg=E
+[   9/200] gutendorf.ru                               ok          browser                      techs=19  seg=D
+[  10/200] gapconstructionwi.com                      ok          browser                      techs=27  seg=F
+[  11/200] ferienwohnung-kastell.de                   dead        NXDOMAIN                     techs=0   seg=F
+[  12/200] katesworldtravel.com                       ok          browser                      techs=29  seg=E
+[  13/200] newbeaverborough.org                       ok          browser                      techs=23  seg=F
+[  14/200] rsthealthcare.com                          ok          browser                      techs=10  seg=F
+[  15/200] yourfamilylines.com                        ok          browser                      techs=5   seg=F
+[  16/200] largsbaychiropractic.com.au                ok          browser                      techs=20  seg=F
+[  17/200] 38inspect.com                              ok          browser                      techs=24  seg=F
+[  18/200] cytofastmed.com                            ok          browser                      techs=35  seg=E
+[  19/200] clotting-guide.online                      ok          browser                      techs=18  seg=F
+[  20/200] disneystore.com                            ok          browser                      techs=45  seg=D
+[  21/200] gogroupauto.com                            ok          browser                      techs=27  seg=F
+[  22/200] chavchavadze-m2-41-tbilisi.booked.net      unreachable HTTP 404                     techs=3   seg=F
+[  23/200] imgs.co.jp                                 blocked     akamai                       techs=17  seg=E
+[  24/200] msc-manching.de                            ok          browser                      techs=17  seg=F
+[  25/200] sgsextremaratio.it                         ok          browser                      techs=11  seg=F
+[  26/200] 5starremoval.weebly.com                    unreachable HTTP 404                     techs=11  seg=F
+[  27/200] fsbwyoming.com                             ok          browser                      techs=33  seg=E
+[  28/200] 11853prospecthill.com                      dead        NXDOMAIN                     techs=0   seg=F
+[  29/200] amourfinder.com                            blocked     akamai                       techs=9   seg=F
+[  30/200] jobresourcecentre.com                      ok          browser                      techs=35  seg=E
+[  31/200] coastwidemechanicalcentralcoast.com.au     ok          browser                      techs=24  seg=E
+[  32/200] doringpoort.com                            ok          browser                      techs=26  seg=E
+[  33/200] 253media.com                               ok          browser                      techs=33  seg=E
+[  34/200] doortodoororganics.com                     ok          browser                      techs=9   seg=F
+[  35/200] coenzwezerijnen.nu                         unreachable connect: All connection atte techs=0   seg=F
+[  36/200] velvety.eu                                 ok          browser                      techs=30  seg=F
+[  37/200] fisherinvestments.com                      blocked     unknown WAF                  techs=8   seg=F
+[  38/200] kentpropertyrenovations.co.uk              ok          browser                      techs=19  seg=F
+[  39/200] globalrn.com                               unreachable HTTP 526                     techs=18  seg=E
+[  40/200] rionecontrastanga.net                      ok          browser                      techs=32  seg=F
+[  41/200] empresasori.com                            ok          browser                      techs=30  seg=F
+[  42/200] 5w.design                                  ok          browser                      techs=26  seg=F
+[  43/200] genesisny.net                              ok          browser                      techs=7   seg=E
+[  44/200] lojatatical.com.br                         ok          browser                      techs=25  seg=D
+[  45/200] marien-apotheke-grefrath-app.de            ok          browser                      techs=7   seg=F
+[  46/200] centreconsiliereavort.ro                   ok          browser                      techs=15  seg=F
+[  47/200] avocatalinamanciu.ro                       ok          browser                      techs=33  seg=E
+[  48/200] stwannas.com                               blocked     cloudflare (wayback fallback techs=22  seg=F
+[  49/200] passwordstore.it                           ok          browser                      techs=24  seg=F
+[  50/200] huberautomotive.com                        ok          browser                      techs=24  seg=E
+[  51/200] 4stonebuildings.com                        ok          browser                      techs=27  seg=E
+[  52/200] weducars.co.za                             ok          browser                      techs=32  seg=D
+[  53/200] infoaboutnetwork.com                       ok          browser                      techs=19  seg=F
+[  54/200] dssfla.com                                 ok          browser                      techs=31  seg=E
+[  55/200] natedea.co.uk                              ok          browser                      techs=30  seg=E
+[  56/200] loizillon.com                              ok          browser                      techs=21  seg=E
+[  57/200] maniaupiekszania.pl                        ok          browser                      techs=30  seg=F
+[  58/200] sprucemeadowsmd.com                        ok          browser                      techs=14  seg=F
+[  59/200] arenaskolor.se                             ok          browser                      techs=23  seg=F
+[  60/200] boken.ch                                   ok          browser                      techs=19  seg=E
+[  61/200] haus-muehlenfeld-pommerby.de               ok          browser                      techs=18  seg=E
+[  62/200] restwellstreetmedicalcentre.com.au         ok          browser                      techs=13  seg=E
+[  63/200] familybroker.cz                            unreachable HTTP 404                     techs=4   seg=F
+[  64/200] lets.gr                                    ok          browser                      techs=8   seg=F
+[  65/200] aida-cruises.at                            ok          browser                      techs=24  seg=E
+[  66/200] 365outsource.com                           ok          browser                      techs=33  seg=E
+[  67/200] den-a-sha.co.jp                            ok          browser                      techs=6   seg=F
+[  68/200] itsolutions24.pl                           ok          browser                      techs=15  seg=F
+[  69/200] skywayrestaurants.net                      ok          browser                      techs=5   seg=F
+[  70/200] 2020wealthadvisory.com                     ok          browser                      techs=28  seg=E
+[  71/200] mehmetefendimacedonia.com                  ok          browser                      techs=10  seg=E
+[  72/200] ecolab.com                                 ok          browser                      techs=52  seg=E
+[  73/200] aaice.net                                  ok          browser                      techs=33  seg=E
+[  74/200] laplumedelisibilite.fr                     ok          browser                      techs=13  seg=E
+[  75/200] hnafirm.com                                ok          browser                      techs=18  seg=F
+[  76/200] 2ldm.com                                   ok          browser                      techs=33  seg=E
+[  77/200] abcdpinturas.com.br                        unreachable HTTP 404                     techs=2   seg=F
+[  78/200] 1planettechnologies.weebly.com             ok          browser                      techs=25  seg=E
+[  79/200] westchesterpointechiro.com                 ok          browser                      techs=15  seg=E
+[  80/200] soziale-dreigliederung.de                  ok          browser                      techs=8   seg=F
+[  81/200] seringa-safaris.com                        blocked     cloudflare (wayback fallback techs=23  seg=E
+[  82/200] premierhomeremodeling.net                  ok          browser                      techs=9   seg=F
+[  83/200] bas-ingenieria.cl                          ok          browser                      techs=13  seg=F
+[  84/200] produkttheater.de                          blocked     unknown WAF (wayback fallbac techs=8   seg=E
+[  85/200] cei-expertises.fr                          ok          browser                      techs=22  seg=F
+[  86/200] 3strandschurch.org                         ok          browser                      techs=25  seg=F
+[  87/200] handycars.com                              ok          browser                      techs=26  seg=E
+[  88/200] unnames.com                                ok          browser                      techs=24  seg=B
+[  89/200] sevecoitalia.com                           ok          browser                      techs=13  seg=F
+[  90/200] resourceservicesolutions.com               ok          browser                      techs=10  seg=F
+[  91/200] alabamabuildingcontractor.com              ok          browser                      techs=16  seg=F
+[  92/200] nielsbirk.dk                               ok          browser                      techs=6   seg=F
+[  93/200] branson-connection.com                     ok          browser                      techs=6   seg=F
+[  94/200] europeaninns.com                           ok          browser                      techs=4   seg=F
+[  95/200] everhartsoutdoor.com                       blocked     unknown WAF (wayback fallbac techs=16  seg=E
+[  96/200] massageforworldpeace.com                   ok          browser                      techs=12  seg=F
+[  97/200] skywardspeech.com.au                       ok          browser                      techs=29  seg=F
+[  98/200] roccofortehotels.cn                        ok          browser                      techs=28  seg=F
+[  99/200] phucankhanggroup.com                       ok          browser                      techs=22  seg=E
+[ 100/200] amaronbattery.in                           ok          browser                      techs=5   seg=F
+[ 101/200] radxmobile.com                             ok          browser                      techs=19  seg=F
+[ 102/200] cultivateventures.co.nz                    ok          browser                      techs=18  seg=F
+[ 103/200] 3bsexcavating.com                          ok          browser                      techs=31  seg=E
+[ 104/200] 2-com.net                                  ok          browser                      techs=18  seg=E
+[ 105/200] weissbauchpapageien.de                     ok          browser                      techs=8   seg=F
+[ 106/200] hansis-knusperhendl-foodtruck.eatbu.com    ok          browser                      techs=18  seg=E
+[ 107/200] 959marine.com                              ok          browser                      techs=22  seg=E
+[ 108/200] antikebau.de                               unreachable HTTP 500                     techs=4   seg=F
+[ 109/200] broganlmt.com                              ok          browser                      techs=24  seg=F
+[ 110/200] solvos.nl                                  ok          browser                      techs=8   seg=F
+[ 111/200] 261welfarefund.com                         ok          browser                      techs=18  seg=F
+[ 112/200] buchhaltungsservice-koenig.de              ok          browser                      techs=16  seg=F
+[ 113/200] cmc01village.com                           parked      domain parking page          techs=10  seg=E
+[ 114/200] juanmunozhomesmart.com                     ok          browser                      techs=21  seg=E
+[ 115/200] wglchurch.com                              dead        NXDOMAIN                     techs=0   seg=F
+[ 116/200] nwmotorinn.com                             dead        NXDOMAIN                     techs=0   seg=F
+[ 117/200] littlerockafamily.de                       dead        NXDOMAIN                     techs=0   seg=F
+[ 118/200] costa-coffee.be                            ok          browser                      techs=18  seg=F
+[ 119/200] 3dwealthadvisory.com                       ok          browser                      techs=20  seg=F
+[ 120/200] disinfestazioniepiscine.it                 ok          browser                      techs=25  seg=E
+[ 121/200] lscms.org                                  ok          browser                      techs=24  seg=F
+[ 122/200] kande-hoikuen.ed.jp                        ok          browser                      techs=8   seg=F
+[ 123/200] orifoodsco.com                             ok          browser                      techs=19  seg=F
+[ 124/200] jackwills.com                              ok          browser                      techs=24  seg=E
+[ 125/200] insieme.stanford.edu                       ok          browser                      techs=20  seg=E
+[ 126/200] layer7innovations.ca                       ok          browser                      techs=12  seg=F
+[ 127/200] verticalcommunitychurch.com                dead        NXDOMAIN                     techs=0   seg=F
+[ 128/200] ejc-courtage-assurances.fr                 ok          browser                      techs=14  seg=F
+[ 129/200] deerfieldbeachautomall.com                 ok          browser                      techs=25  seg=E
+[ 130/200] makpharma-eg.com                           ok          browser                      techs=11  seg=F
+[ 131/200] oakwell.vet                                ok          browser                      techs=27  seg=E
+[ 132/200] ferrateoxidant.com                         ok          browser                      techs=20  seg=F
+[ 133/200] mysterion.hr                               ok          browser                      techs=35  seg=E
+[ 134/200] lorenz-baumarkt.de                         ok          browser                      techs=20  seg=F
+[ 135/200] cmresolutions.com                          ok          browser                      techs=3   seg=F
+[ 136/200] evelynanders.com                           ok          browser                      techs=8   seg=F
+[ 137/200] howellmotors.com                           ok          browser                      techs=43  seg=E
+[ 138/200] maiquotes.net                              ok          browser                      techs=11  seg=F
+[ 139/200] dorpsbelangen.nu                           ok          browser                      techs=24  seg=F
+[ 140/200] sdmdjentertainment.com                     ok          browser                      techs=12  seg=F
+[ 141/200] domekvefaru.com                            ok          browser                      techs=10  seg=F
+[ 142/200] ideenhunger.com                            ok          browser                      techs=26  seg=E
+[ 143/200] jenniferbacksteininteriors.com             ok          browser                      techs=16  seg=F
+[ 144/200] nevsproductions.com                        blocked     unknown WAF                  techs=13  seg=F
+[ 145/200] powercleaning.services                     ok          browser                      techs=23  seg=E
+[ 146/200] elcolegiocongresosyrestaurante.com         ok          browser                      techs=8   seg=F
+[ 147/200] northshoremacnut.com                       ok          browser                      techs=26  seg=D
+[ 148/200] stoperbis.pl                               ok          browser                      techs=7   seg=E
+[ 149/200] gitesducharmois.fr                         ok          browser                      techs=18  seg=F
+[ 150/200] a3sec.com                                  ok          browser                      techs=31  seg=E
+[ 151/200] hoffmaninstitute.co.uk                     ok          browser                      techs=31  seg=F
+[ 152/200] eclairage-solaire-occitanie.com            unreachable HTTP 404                     techs=11  seg=F
+[ 153/200] allegrocreditbeta.com                      ok          browser                      techs=41  seg=E
+[ 154/200] nicholsonchiro.com                         ok          browser                      techs=27  seg=E
+[ 155/200] xn--jobvrkstedet-9cb.nu                    ok          browser                      techs=14  seg=F
+[ 156/200] concrete-fitness.edan.io                   blocked     cloudflare                   techs=5   seg=F
+[ 157/200] appelpsychotherapy.com                     ok          browser                      techs=23  seg=D
+[ 158/200] tamcconstruction.net                       dead        NXDOMAIN                     techs=0   seg=F
+[ 159/200] pcb-cpb.com                                ok          browser                      techs=24  seg=F
+[ 160/200] jonesbuickgmc.com                          ok          browser                      techs=43  seg=E
+[ 161/200] brucebournesold.com                        ok          browser                      techs=21  seg=E
+[ 162/200] 11thhourracing.org                         ok          browser                      techs=32  seg=E
+[ 163/200] chiantifiorentino.it                       ok          browser                      techs=27  seg=E
+[ 164/200] miratrade.com.tr                           empty       no content                   techs=5   seg=F
+[ 165/200] freo.com.au                                ok          browser                      techs=6   seg=F
+[ 166/200] 3-energie-klaas.de                         ok          browser                      techs=9   seg=F
+[ 167/200] redpants.jp                                ok          browser                      techs=18  seg=F
+[ 168/200] fluxar.com.ar                              ok          browser                      techs=32  seg=E
+[ 169/200] bata.edu.hu                                ok          browser                      techs=13  seg=F
+[ 170/200] labdemo.com                                ok          browser                      techs=22  seg=F
+[ 171/200] wrinkle-pei.cz                             ok          browser                      techs=3   seg=F
+[ 172/200] davidloeppke.com                           ok          browser                      techs=22  seg=E
+[ 173/200] 1ststopsupply.com                          unreachable HTTP 409                     techs=23  seg=F
+[ 174/200] la-residenza-del-principe-rome-it.booked.n unreachable HTTP 404                     techs=3   seg=F
+[ 175/200] koniczynka.info.pl                         ok          browser                      techs=29  seg=F
+[ 176/200] 2agateway.com                              ok          browser                      techs=18  seg=F
+[ 177/200] celiabedilia.com                           ok          browser                      techs=6   seg=F
+[ 178/200] footasylum.com                             ok          browser                      techs=33  seg=E
+[ 179/200] 1stlocksheathscouts.org.uk                 ok          browser                      techs=17  seg=F
+[ 180/200] ledestjernenstu.dk                         ok          browser                      techs=30  seg=E
+[ 181/200] aardvarkelectriccorp.com                   unreachable HTTP 409                     techs=14  seg=F
+[ 182/200] abbikadabbisbakingco.com                   ok          browser                      techs=21  seg=D
+[ 183/200] herbalwise.ie                              ok          browser                      techs=27  seg=B
+[ 184/200] deepseass.com                              ok          browser                      techs=28  seg=F
+[ 185/200] startravelcompany.com                      unreachable timeout                      techs=11  seg=F
+[ 186/200] thomasrosenbaum.com                        ok          browser                      techs=17  seg=F
+[ 187/200] 100wwcstlw.org                             ok          browser                      techs=8   seg=F
+[ 188/200] needaphysio.com                            ok          browser                      techs=10  seg=F
+[ 189/200] shapirolawfirm.com                         ok          browser                      techs=22  seg=F
+[ 190/200] arol.cl                                    ok          browser                      techs=6   seg=F
+[ 191/200] 1stclairavewest.com                        unreachable HTTP 409                     techs=23  seg=F
+[ 192/200] 5rcircleprocess.weebly.com                 ok          browser                      techs=23  seg=E
+[ 193/200] unitedveterinaryservice.com                ok          browser                      techs=23  seg=F
+[ 194/200] sindacatobadanti.it                        blocked     unknown WAF (wayback fallbac techs=34  seg=E
+[ 195/200] construccionesyatecnicas.com               ok          browser                      techs=10  seg=F
+[ 196/200] bfnelson.it                                ok          browser                      techs=20  seg=F
+[ 197/200] rivithead.com                              ok          browser                      techs=12  seg=E
+[ 198/200] lighthouseprc.org                          ok          browser                      techs=42  seg=E
+[ 199/200] joseph-herber.business.site                unreachable HTTP 404                     techs=3   seg=F
+[ 200/200] joburgheritage.org.za                      ok          browser                      techs=26  seg=D
+
+Done in 478s -> D:\SSD 2\VSAgency\247web\website-tech-scraper\runs\20261125-152356
+status: {'dead': 8, 'ok': 166, 'unreachable': 14, 'blocked': 10, 'parked': 1, 'empty': 1}  success_rate=0.83
+unique technologies: 504   total detections: 3694   shopify stores: 2
+lead segments: {'F': 122, 'E': 67, 'D': 9, 'B': 2}

@@ -1,0 +1,111 @@
+{
+  "_comment": "Own fingerprints, same schema as webappanalyzer. Focus: Shopify analytics / attribution tools missing from the public DB, plus Shopify-specific signals. Domain-based patterns only (low false-positive risk). Rules here override the public DB on name collision.",
+
+  "Shopify Analytics (native)": {
+    "cats": [10],
+    "description": "Shopify's built-in analytics/tracking layer (Trekkie + Monorail). Present on virtually every Shopify store - it is the 'free incumbent' every analytics app competes with.",
+    "website": "https://help.shopify.com/en/manual/reports-and-analytics",
+    "js": { "ShopifyAnalytics": "", "ShopifyAnalytics.meta": "" },
+    "xhr": ["monorail-edge\\.shopifysvc\\.com"],
+    "scripts": ["window\\.ShopifyAnalytics\\s*=", "trekkie\\.(?:storefront|load)"],
+    "requires": ["Shopify"]
+  },
+  "Shopify Web Pixels Manager": {
+    "cats": [42],
+    "description": "Shopify's sandboxed pixel runtime. Its inline config (webPixelsConfigList) lists every app pixel installed on the store - a key source for detecting analytics apps.",
+    "website": "https://shopify.dev/docs/apps/build/marketing-analytics/pixels",
+    "scripts": ["webPixelsConfigList", "webPixelsManager"],
+    "xhr": ["/wpm@[\\w.-]+/"],
+    "requires": ["Shopify"]
+  },
+  "Lifetimely": {
+    "cats": [10, 100],
+    "description": "Lifetimely by AMP - LTV & profit analytics for Shopify (direct competitor).",
+    "website": "https://lifetimely.io",
+    "scriptSrc": ["lifetimely\\.io"], "xhr": ["lifetimely\\.io"], "scripts": ["lifetimely\\.io"]
+  },
+  "Peel Insights": {
+    "cats": [10, 100],
+    "description": "Peel - automated analytics for Shopify brands (direct competitor).",
+    "website": "https://www.peelinsights.com",
+    "scriptSrc": ["peelinsights\\.com"], "xhr": ["peelinsights\\.com"], "scripts": ["peelinsights\\.com"]
+  },
+  "BeProfit": {
+    "cats": [10, 100],
+    "description": "BeProfit - profit analytics for Shopify (direct competitor).",
+    "website": "https://beprofit.co",
+    "scriptSrc": ["beprofit\\.co"], "xhr": ["beprofit\\.co"], "scripts": ["beprofit\\.co"]
+  },
+  "TrueProfit": {
+    "cats": [10, 100],
+    "description": "TrueProfit - profit analytics for Shopify (direct competitor).",
+    "website": "https://trueprofit.io",
+    "scriptSrc": ["trueprofit\\.io"], "xhr": ["trueprofit\\.io"], "scripts": ["trueprofit\\.io"]
+  },
+  "Daasity": {
+    "cats": [10],
+    "description": "Daasity - commerce data & analytics platform (direct competitor).",
+    "website": "https://www.daasity.com",
+    "scriptSrc": ["daasity\\.com"], "xhr": ["daasity\\.com"], "scripts": ["daasity\\.com"]
+  },
+  "Glew": {
+    "cats": [10],
+    "description": "Glew - ecommerce analytics (direct competitor).",
+    "website": "https://www.glew.io",
+    "scriptSrc": ["glew\\.io"], "xhr": ["glew\\.io"]
+  },
+  "Lebesgue": {
+    "cats": [10, 100],
+    "description": "Lebesgue - AI marketing analytics for Shopify (direct competitor).",
+    "website": "https://lebesgue.io",
+    "scriptSrc": ["lebesgue\\.io"], "xhr": ["lebesgue\\.io"], "scripts": ["lebesgue\\.io"]
+  },
+  "Admetrics": {
+    "cats": [10],
+    "description": "Admetrics - attribution & analytics for ecommerce (direct competitor).",
+    "website": "https://www.admetrics.io",
+    "scriptSrc": ["admetrics\\.io"], "xhr": ["admetrics\\.io"], "scripts": ["admetrics\\.io"]
+  },
+  "Klar": {
+    "cats": [10],
+    "description": "Klar - ecommerce analytics & attribution (direct competitor).",
+    "website": "https://www.getklar.com",
+    "scriptSrc": ["getklar\\.com"], "xhr": ["getklar\\.com"], "scripts": ["getklar\\.com"]
+  },
+  "OrderMetrics": {
+    "cats": [10, 100],
+    "description": "OrderMetrics - profit analytics for Shopify (direct competitor).",
+    "website": "https://www.ordermetrics.io",
+    "scriptSrc": ["ordermetrics\\.io"], "xhr": ["ordermetrics\\.io"]
+  },
+  "Analyzify": {
+    "cats": [10, 100],
+    "description": "Analyzify - GA4 / ads tracking setup service for Shopify.",
+    "website": "https://analyzify.com",
+    "scriptSrc": ["analyzify"], "scripts": ["analyzify"], "js": { "analyzify": "" }
+  },
+  "Mouseflow": {
+    "cats": [10],
+    "description": "Mouseflow - session replay & heatmaps.",
+    "website": "https://mouseflow.com",
+    "scriptSrc": ["cdn\\.mouseflow\\.com"], "xhr": ["mouseflow\\.com"], "js": { "mouseflow": "", "_mfq": "" }
+  },
+  "Kissmetrics": {
+    "cats": [10],
+    "description": "Kissmetrics - product & customer analytics.",
+    "website": "https://www.kissmetrics.io",
+    "scriptSrc": ["kissmetrics\\.(?:io|com)", "doug1izaerwt3\\.cloudfront\\.net"], "js": { "_kmq": "", "KM": "" }
+  },
+  "RudderStack": {
+    "cats": [97],
+    "description": "RudderStack - open-source customer data platform.",
+    "website": "https://www.rudderstack.com",
+    "scriptSrc": ["cdn\\.rudderlabs\\.com"], "xhr": ["rudderlabs\\.com", "rudderstack\\.com"], "js": { "rudderanalytics": "" }
+  },
+  "Snowplow": {
+    "cats": [10],
+    "description": "Snowplow - behavioral data platform.",
+    "website": "https://snowplow.io",
+    "js": { "GlobalSnowplowNamespace": "", "snowplow": "" }, "scriptSrc": ["snowplow(?:analytics)?[\\w.-]*\\.(?:js|com)"]
+  }
+}

@@ -1,0 +1,550 @@
+{
+ "learned_at": "2026-11-25 16:14",
+ "method": "sample of 5 verified stores per tool",
+ "ids": {
+  "ext:analyzify-ga4-ads-tracking": {
+   "tool": "Analyzify",
+   "kind": "theme app extension",
+   "method": "shared by 5/5 sampled Analyzify reviewer stores",
+   "evidence": "5/5 Analyzify reviewer stores vs 0/55 stores of other tools",
+   "example_stores": [
+    "dieselpartsdirect.com",
+    "rossandbrown.com",
+    "istyle.bg",
+    "mahoneswallpapershop.com",
+    "speedcomfort.com"
+   ]
+  },
+  "2509311": {
+   "tool": "Elevar",
+   "kind": "web pixel apiClientId",
+   "method": "shared by 4/5 sampled Elevar reviewer stores",
+   "evidence": "4/5 Elevar reviewer stores vs 0/55 stores of other tools",
+   "example_stores": [
+    "bawbags.com",
+    "girlpowersupplements.ca",
+    "gruns.co",
+    "orimiiskincare.com"
+   ]
+  },
+  "1464241": {
+   "tool": "Littledata",
+   "kind": "web pixel apiClientId",
+   "method": "shared by 5/5 sampled Littledata reviewer stores",
+   "evidence": "5/5 Littledata reviewer stores vs 1/55 stores of other tools",
+   "example_stores": [
+    "blissfullittlehome.com.au",
+    "montoddler.com",
+    "huggymoon.eu",
+    "rolighverdag.dk",
+    "highcampflasks.com"
+   ]
+  },
+  "4294333": {
+   "tool": "Polar Analytics",
+   "kind": "web pixel apiClientId",
+   "method": "shared by 5/5 sampled Polar Analytics reviewer stores",
+   "evidence": "5/5 Polar Analytics reviewer stores vs 0/55 stores of other tools",
+   "example_stores": [
+    "naturtintusa.com",
+    "valabasas.com",
+    "susannekaufmann.com",
+    "danjohn.com",
+    "sportyandrich.com"
+   ]
+  },
+  "838114": {
+   "tool": "Trackify X",
+   "kind": "web pixel apiClientId",
+   "method": "shared by 4/5 sampled Trackify X reviewer stores",
+   "evidence": "4/5 Trackify X reviewer stores vs 0/55 stores of other tools",
+   "example_stores": [
+    "pintryx.com",
+    "overstore.gr",
+    "rogerpouches.com",
+    "groovylife.store"
+   ]
+  },
+  "2553263": {
+   "tool": "TrueProfit",
+   "kind": "web pixel apiClientId",
+   "method": "shared by 4/5 sampled TrueProfit reviewer stores",
+   "evidence": "4/5 TrueProfit reviewer stores vs 0/55 stores of other tools",
+   "example_stores": [
+    "kalvir.com",
+    "wellnessnest.co",
+    "bylashbabe.com",
+    "nuretox.com"
+   ]
+  }
+ },
+ "per_tool": {
+  "Analyzify": {
+   "status": "learned",
+   "apiClientId": "ext:analyzify-ga4-ads-tracking",
+   "sample": [
+    "dieselpartsdirect.com",
+    "rossandbrown.com",
+    "istyle.bg",
+    "mahoneswallpapershop.com",
+    "speedcomfort.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "ext:analyzify-ga4-ads-tracking",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    },
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  },
+  "BeProfit": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "bioenex.at",
+    "techweise.com",
+    "rovedashcam.com",
+    "braneitbeauty.com.au",
+    "ecolino.ro"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 39,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 37,
+     "of_other": 55
+    },
+    {
+     "id": "2329312",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 27,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Daasity": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "resbiotic.com",
+    "tacticalbabygear.com",
+    "the-citizenry.com",
+    "theberkey.com",
+    "tealeaves.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "1780363",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 39,
+     "of_other": 55
+    },
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Elevar": {
+   "status": "learned",
+   "apiClientId": "2509311",
+   "sample": [
+    "bawbags.com",
+    "girlpowersupplements.ca",
+    "threadnoble.com",
+    "gruns.co",
+    "orimiiskincare.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    },
+    {
+     "id": "2509311",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Lebesgue": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "audreyschocolates.co.uk",
+    "sillypickles.com",
+    "fernfitness.co",
+    "allprintheads.com",
+    "nestfold.store"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 36,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    },
+    {
+     "id": "2329312",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 27,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Lifetimely": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "lumelle.ch",
+    "equatorcoffees.com",
+    "liljathelabel.com",
+    "evolvetogether.com",
+    "primebites.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 36,
+     "of_other": 55
+    },
+    {
+     "id": "2329312",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 26,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Littledata": {
+   "status": "learned",
+   "apiClientId": "1464241",
+   "sample": [
+    "blissfullittlehome.com.au",
+    "montoddler.com",
+    "huggymoon.eu",
+    "rolighverdag.dk",
+    "highcampflasks.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "1464241",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 1,
+     "of_other": 55
+    },
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "ext:littledata",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 1,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Peel Insights": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "koh.com",
+    "biocollabs.com",
+    "liveowyn.com",
+    "saalt.com",
+    "saltair.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    },
+    {
+     "id": "shopify-pixel",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 54,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 37,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Polar Analytics": {
+   "status": "learned",
+   "apiClientId": "4294333",
+   "sample": [
+    "naturtintusa.com",
+    "valabasas.com",
+    "susannekaufmann.com",
+    "danjohn.com",
+    "sportyandrich.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 36,
+     "of_other": 55
+    },
+    {
+     "id": "4294333",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    },
+    {
+     "id": "3009811",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 17,
+     "of_other": 55
+    },
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    },
+    {
+     "id": "2329312",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 27,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Sirge": {
+   "status": "no_pixel_signal",
+   "apiClientId": null,
+   "sample": [
+    "exponentedge.com",
+    "donkeytees.com",
+    "acfcanvasses.com",
+    "radheys.com",
+    "record-roots.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "1780363",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 40,
+     "of_other": 55
+    },
+    {
+     "id": "shopify-pixel",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 54,
+     "of_other": 55
+    },
+    {
+     "id": "2329312",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 27,
+     "of_other": 55
+    }
+   ],
+   "note": "No pixel or theme extension shared by this tool's sampled stores that other tools' stores lack: likely backend-only (Admin API).",
+   "reviewer_stores_with_pixels": 5
+  },
+  "Trackify X": {
+   "status": "learned",
+   "apiClientId": "838114",
+   "sample": [
+    "pintryx.com",
+    "overstore.gr",
+    "rogerpouches.com",
+    "ceelike.com",
+    "groovylife.store"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "838114",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    },
+    {
+     "id": "ext:trackify-x",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  },
+  "TrueProfit": {
+   "status": "learned",
+   "apiClientId": "2553263",
+   "sample": [
+    "kalvir.com",
+    "wellnessnest.co",
+    "bylashbabe.com",
+    "tarivi.com",
+    "nuretox.com"
+   ],
+   "shared_by_most": [
+    {
+     "id": "shopify-pixel",
+     "in": 5,
+     "of": 5,
+     "other_tools_stores": 53,
+     "of_other": 55
+    },
+    {
+     "id": "2553263",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 0,
+     "of_other": 55
+    },
+    {
+     "id": "123074",
+     "in": 4,
+     "of": 5,
+     "other_tools_stores": 37,
+     "of_other": 55
+    }
+   ],
+   "note": "",
+   "reviewer_stores_with_pixels": 5
+  }
+ }
+}

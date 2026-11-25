@@ -1,0 +1,21 @@
+domain,status,status_detail,final_url,techs_found,http_verdict,http_status,browser_verdict,browser_status,challenge_waited,tls_issuer,elapsed_ms
+allbirds.com,ok,http,https://www.allbirds.com/,19,ok,200,,,,Let's Encrypt,11310
+gymshark.com,ok,http,https://us.checkout.gymshark.com/,26,ok,200,,,,Let's Encrypt,3242
+kyliecosmetics.com,ok,http,https://kyliecosmetics.com/,28,ok,200,,,,Let's Encrypt,11227
+colourpop.com,ok,http,https://colourpop.com/,32,ok,200,,,,Let's Encrypt,11407
+fashionnova.com,ok,http,https://www.fashionnova.com/,25,ok,200,,,,Let's Encrypt,19583
+bombas.com,blocked,vercel,https://bombas.com/,22,challenge,429,,,,Let's Encrypt,16140
+rothys.com,ok,http,https://rothys.com/en-ro,35,ok,200,,,,Let's Encrypt,11753
+brooklinen.com,ok,http,https://www.brooklinen.com/,29,ok,200,,,,Let's Encrypt,11527
+mvmt.com,ok,http,https://mvmt.com/,30,ok,200,,,,Let's Encrypt,4451
+chubbiesshorts.com,ok,http,https://www.chubbiesshorts.com/,21,ok,200,,,,Let's Encrypt,15122
+ruggable.com,ok,http,https://ruggable.com/,23,ok,200,,,,Google Trust Services,4378
+ridge.com,blocked,cloudflare,https://ridge.com/,8,challenge,403,,,,Let's Encrypt,220
+skims.com,ok,http,https://skims.com/en-ro,29,ok,200,,,,Let's Encrypt,14423
+drinkolipop.com,ok,http,https://drinkolipop.com/,35,ok,200,,,,Google Trust Services,10703
+jonesroadbeauty.com,ok,http,https://www.jonesroadbeauty.com/,27,ok,200,,,,Google Trust Services,14031
+trueclassictees.com,ok,http,https://www.trueclassictees.com/en-ro,29,ok,200,,,,Let's Encrypt,18307
+cutsclothing.com,ok,http,https://www.cutsclothing.com/en-ro/,15,ok,200,,,,Let's Encrypt,12742
+manscaped.com,blocked,cloudflare,https://www.manscaped.com/,18,challenge,403,,,,Google Trust Services,120
+feastables.com,ok,http,https://feastables.com/,29,ok,200,,,,Let's Encrypt,1487
+fentybeauty.com,ok,http,https://fentybeauty.com/en-ro,22,ok,200,,,,Let's Encrypt,14599

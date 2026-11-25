@@ -1,0 +1,70 @@
+{
+  "_comment": "Business layer on top of raw detection. Our client sells an analytics plugin for Shopify. Tier 1 = what they directly replace on Shopify. Tier 2/3 = generic analytics (the secondary filter, also on other CMSs).",
+
+  "shopify_platform": ["Shopify"],
+
+  "other_ecommerce_platforms": [
+    "WooCommerce", "Magento", "BigCommerce", "PrestaShop", "Squarespace Commerce", "Wix eCommerce",
+    "Ecwid", "OpenCart", "Shopware", "Salesforce Commerce Cloud", "Volusion", "Lightspeed eCom",
+    "Shift4Shop", "Square Online", "WiziShop", "Shoper", "Gambio", "JTL-Shop", "OXID eShop",
+    "VirtueMart", "Zen Cart", "osCommerce", "nopCommerce", "Sylius", "Spree Commerce", "Saleor",
+    "Commerce Cloud", "SAP Commerce Cloud", "Oracle Commerce Cloud", "Medusa", "Tiendanube",
+    "MerchantPro", "Gomag"
+  ],
+
+  "tiers": {
+    "shopify_analytics": {
+      "label": "Tier 1 - Shopify analytics / attribution / profit apps (direct competitors)",
+      "weight": 60,
+      "tools": [
+        "Triple Whale", "Polar Analytics", "Northbeam", "Lifetimely", "Peel Insights", "BeProfit",
+        "TrueProfit", "Daasity", "Elevar", "Littledata", "Glew", "Wicked Reports", "Hyros",
+        "Rockerbox", "OrderMetrics", "Lebesgue", "Admetrics", "SegmentStream", "Klar", "Converge",
+        "Aimerce", "Analyzify", "Sirge", "Trackify X"
+      ]
+    },
+    "behavior_analytics": {
+      "label": "Tier 2 - CRO / behavior analytics (heatmaps, session replay)",
+      "weight": 25,
+      "tools": [
+        "Hotjar", "Microsoft Clarity", "Lucky Orange", "Crazy Egg", "FullStory", "Mouseflow",
+        "Contentsquare", "Smartlook", "Inspectlet", "Quantum Metric", "Glassbox", "Decibel", "VWO"
+      ]
+    },
+    "product_analytics": {
+      "label": "Tier 2 - Product analytics / CDP",
+      "weight": 20,
+      "tools": [
+        "Heap", "Mixpanel", "Amplitude", "Segment", "RudderStack", "Snowplow", "Kissmetrics",
+        "PostHog", "Woopra", "Pendo", "Lytics", "Adobe Analytics"
+      ]
+    },
+    "web_analytics": {
+      "label": "Tier 3 - Generic web analytics",
+      "weight": 10,
+      "tools": [
+        "Google Analytics", "Matomo Analytics", "Plausible", "Fathom", "Simple Analytics", "Umami",
+        "Clicky", "Statcounter", "Yandex.Metrika", "Cloudflare Browser Insights", "HubSpot Analytics"
+      ]
+    }
+  },
+
+  "baseline_not_competitor": ["Shopify Analytics (native)", "Shopify Web Pixels Manager"],
+
+  "_app_store_comment": "Shopify App Store handles (apps.shopify.com/<handle>). Verified by fetching each page; handles that differ from the brand name were found via links on the vendor's own site. Northbeam, Klar, Hyros, Wicked Reports, SegmentStream have no App Store listing (detected from the storefront instead).",
+  "_delisted_comment": "triplewhale-1, ordermetrics and admetrics answer 'no longer available' (reviews page 404) as of 2026-11-25. Triple Whale stays detectable from its storefront pixel.",
+  "app_store_handles": {
+    "Polar Analytics": "polar-analytics",
+    "Lifetimely": "lifetimely-lifetime-value-and-profit-analytics",
+    "Peel Insights": "peel-insights",
+    "BeProfit": "beprofit-profit-tracker",
+    "TrueProfit": "trueprofit",
+    "Elevar": "gtm-datalayer-by-elevar",
+    "Littledata": "littledata",
+    "Daasity": "daasity",
+    "Lebesgue": "advertising-insights",
+    "Trackify X": "trackify-1",
+    "Sirge": "sirge-3",
+    "Analyzify": "analyzify"
+  }
+}

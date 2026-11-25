@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+# Third-party fingerprint DB (GPL-3.0) is fetched by scripts/update_fingerprints.py, not vendored
+vendor/
+# Raw per-run artifacts are large; the curated final run is copied to output/
+runs/*/raw/
+uploads/
+# Local notes for Claude sessions, not part of the submission
+HANDOFF.md

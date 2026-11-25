@@ -1,0 +1,255 @@
+{
+ "domains": 20,
+ "status": {
+  "ok": 17,
+  "blocked": 3
+ },
+ "success_rate": 0.85,
+ "ok_via_browser": 0,
+ "blocked_by": {
+  "vercel": 1,
+  "cloudflare": 2
+ },
+ "unreachable_reasons": {},
+ "unique_techs": 121,
+ "total_detections": 502,
+ "avg_techs_per_ok": 26.7,
+ "top_techs": [
+  [
+   "Cloudflare",
+   19
+  ],
+  [
+   "HSTS",
+   17
+  ],
+  [
+   "Open Graph",
+   17
+  ],
+  [
+   "Shopify",
+   17
+  ],
+  [
+   "HTTP/3",
+   16
+  ],
+  [
+   "Let's Encrypt",
+   16
+  ],
+  [
+   "Microsoft 365",
+   14
+  ],
+  [
+   "Priority Hints",
+   14
+  ],
+  [
+   "Meta",
+   14
+  ],
+  [
+   "Apple Pay",
+   12
+  ],
+  [
+   "Apple iCloud Mail",
+   12
+  ],
+  [
+   "PayPal",
+   12
+  ],
+  [
+   "Shopify Analytics (native)",
+   12
+  ],
+  [
+   "Shopify Web Pixels Manager",
+   12
+  ],
+  [
+   "Anthropic",
+   12
+  ],
+  [
+   "Swiper",
+   11
+  ],
+  [
+   "Amazon Web Services",
+   10
+  ],
+  [
+   "Google Tag Manager",
+   9
+  ],
+  [
+   "Atlassian Cloud",
+   9
+  ],
+  [
+   "OneTrust",
+   9
+  ],
+  [
+   "OpenAI",
+   8
+  ],
+  [
+   "Google Workspace",
+   8
+  ],
+  [
+   "Venmo",
+   8
+  ],
+  [
+   "Cart Functionality",
+   7
+  ],
+  [
+   "Mailgun",
+   7
+  ],
+  [
+   "Adobe",
+   6
+  ],
+  [
+   "Figma",
+   6
+  ],
+  [
+   "Klaviyo",
+   6
+  ],
+  [
+   "Notion",
+   6
+  ],
+  [
+   "Slack",
+   6
+  ],
+  [
+   "Cloudflare DNS",
+   6
+  ],
+  [
+   "Zoom",
+   5
+  ],
+  [
+   "Yotpo Reviews",
+   5
+  ],
+  [
+   "jsDelivr",
+   5
+  ],
+  [
+   "Google Analytics",
+   5
+  ],
+  [
+   "GoDaddy",
+   5
+  ],
+  [
+   "DocuSign",
+   4
+  ],
+  [
+   "Miro",
+   4
+  ],
+  [
+   "Amazon Route 53",
+   4
+  ],
+  [
+   "Amazon SES",
+   4
+  ]
+ ],
+ "shopify_stores": 17,
+ "segments": {
+  "A": 6,
+  "B": 4,
+  "C": 7,
+  "F": 3
+ },
+ "competitor_usage": [
+  [
+   "Google Analytics",
+   5
+  ],
+  [
+   "Elevar",
+   3
+  ],
+  [
+   "Northbeam",
+   2
+  ],
+  [
+   "Mixpanel",
+   1
+  ],
+  [
+   "Littledata",
+   1
+  ],
+  [
+   "Amplitude",
+   1
+  ],
+  [
+   "Cloudflare Browser Insights",
+   1
+  ],
+  [
+   "Polar Analytics",
+   1
+  ]
+ ],
+ "evidence_by_source": {
+  "http": 377,
+  "dns": 232,
+  "tls": 16
+ },
+ "detections_only_visible_in_browser": 0,
+ "meta": {
+  "label": "demo Shopify, Light, with learned app ids",
+  "started_at": "2026-11-25 16:15:05",
+  "duration_s": 56.5,
+  "config": {
+   "tiers": [
+    "http",
+    "dns",
+    "tls",
+    "robots"
+   ],
+   "ua": "chrome",
+   "browser_mode": "off",
+   "concurrency": 4,
+   "browser_concurrency": 4,
+   "http_retries": 2,
+   "wayback_max_age_days": 730,
+   "label": "demo Shopify, Light, with learned app ids",
+   "preset": "light"
+  },
+  "proxy_used": false,
+  "fingerprints": {
+   "public_rules": 7715,
+   "custom_rules": 17,
+   "total": 7732,
+   "regex_compile_errors": 0
+  },
+  "browser_engine": null
+ }
+}

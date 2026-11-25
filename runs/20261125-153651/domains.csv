@@ -1,0 +1,21 @@
+domain,status,status_detail,final_url,techs_found,http_verdict,http_status,browser_verdict,browser_status,challenge_waited,tls_issuer,elapsed_ms
+allbirds.com,ok,browser,https://www.allbirds.com/,35,ok,200,ok,200,False,Let's Encrypt,172126
+gymshark.com,ok,browser,https://www.gymshark.com/,45,ok,200,ok,200,False,Let's Encrypt,151674
+kyliecosmetics.com,ok,browser,https://kyliecosmetics.com/,48,ok,200,ok,200,False,Let's Encrypt,75747
+colourpop.com,ok,browser,https://colourpop.com/,61,ok,200,ok,200,False,Let's Encrypt,105661
+fashionnova.com,ok,browser,https://www.fashionnova.com/,38,ok,200,ok,200,False,Let's Encrypt,166512
+bombas.com,ok,browser,https://bombas.com/,44,challenge,429,ok,200,False,Let's Encrypt,151406
+rothys.com,ok,browser,https://rothys.com/en-ro,59,ok,200,ok,200,False,Let's Encrypt,139712
+brooklinen.com,ok,browser,https://www.brooklinen.com/,65,ok,200,ok,200,False,Let's Encrypt,185487
+mvmt.com,ok,browser,https://mvmt.com/,40,ok,200,ok,200,False,Let's Encrypt,91944
+chubbiesshorts.com,ok,browser,https://www.chubbiesshorts.com/,41,ok,200,ok,200,False,Let's Encrypt,193449
+ruggable.com,ok,browser,https://ruggable.com/,62,ok,200,ok,200,False,Google Trust Services,83114
+ridge.com,ok,browser,https://eu.ridge.com/,52,challenge,403,ok,200,False,Let's Encrypt,228405
+skims.com,ok,browser,https://skims.com/en-ro,41,ok,200,ok,200,False,Let's Encrypt,158153
+drinkolipop.com,ok,browser,https://drinkolipop.com/,56,ok,200,ok,200,False,Google Trust Services,130733
+jonesroadbeauty.com,ok,browser,https://www.jonesroadbeauty.com/,59,ok,200,ok,200,False,Google Trust Services,180036
+trueclassictees.com,ok,browser,https://www.trueclassictees.com/en-ro,50,ok,200,ok,200,False,Let's Encrypt,210710
+cutsclothing.com,ok,browser,https://www.cutsclothing.com/en-ro/,52,ok,200,ok,200,False,Let's Encrypt,200276
+manscaped.com,ok,browser,https://www.manscaped.com/,36,challenge,403,ok,200,False,Google Trust Services,65432
+feastables.com,ok,browser,https://feastables.com/,41,ok,200,ok,200,False,Let's Encrypt,71497
+fentybeauty.com,ok,browser,https://fentybeauty.com/en-ro,45,ok,200,ok,200,False,Let's Encrypt,115362

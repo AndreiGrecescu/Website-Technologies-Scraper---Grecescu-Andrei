@@ -1,0 +1,201 @@
+domain,status,status_detail,final_url,techs_found,http_verdict,http_status,browser_verdict,browser_status,challenge_waited,tls_issuer,elapsed_ms
+jcmobilecigars.com,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,84
+somalidisablesupport.com,ok,http,https://somalidisablesupport.com/,18,ok,200,,,,,12123
+yourfamilylines.com,ok,http,https://yourfamilylines.com/,4,ok,200,,,,,15251
+szentkristofudvarhaz.hu,ok,http,https://szentkristofudvarhaz.hu/,9,ok,200,,,,,3969
+disneystore.com,ok,http,https://www.disneystore.com/,18,ok,200,,,,,6677
+chavchavadze-m2-41-tbilisi.booked.net,unreachable,HTTP 404,https://chavchavadze-m2-41-tbilisi.booked.net/,3,error,404,,,,,413
+trs-energycontrol.de,ok,http,https://www.trs-energycontrol.de/,14,ok,200,,,,,14860
+xn--kleoghvidevareservice-qfc.dk,ok,http,https://xn--kleoghvidevareservice-qfc.dk/,14,ok,200,,,,,800
+gogroupauto.com,blocked,akamai,http://www.gogroupauto.com/,1,challenge,403,,,,,19418
+231selfstorage.com,blocked,cloudflare,https://231selfstorage.com/,5,challenge,403,,,,,208
+globalrn.com,unreachable,HTTP 526,https://globalrn.com/,4,error,526,,,,,13273
+cytofastmed.com,ok,http,https://www.cytofastmed.com/,27,ok,200,,,,,21537
+5starremoval.weebly.com,unreachable,HTTP 404,https://5starremoval.weebly.com/,4,error,404,,,,,824
+coenzwezerijnen.nu,unreachable,connect: All connection attempts failed,,0,error,,,,,,17799
+gutendorf.ru,ok,http,https://gutendorf.ru/,15,ok,200,,,,,4304
+katesworldtravel.com,ok,http,https://katesworldtravel.com/,22,ok,200,,,,,13204
+3xd.co.uk,blocked,cloudflare,https://3xd.co.uk/,5,challenge,403,,,,,247
+gapconstructionwi.com,ok,http,https://www.gapconstructionwi.com/,18,ok,200,,,,,3098
+imgs.co.jp,ok,http,https://www.imgs.co.jp/index.html,11,ok,200,,,,,22891
+clotting-guide.online,ok,http,https://www.clotting-guide.online/de/ueber/,14,ok,200,,,,,12440
+38inspect.com,ok,http,https://www.38inspect.com/,18,ok,200,,,,,7248
+newbeaverborough.org,ok,http,https://newbeaverborough.org/,16,ok,200,,,,,3849
+largsbaychiropractic.com.au,ok,http,https://www.largsbaychiropractic.com.au/,11,ok,200,,,,,10172
+rsthealthcare.com,ok,http,https://rsthealthcare.com/,7,ok,200,,,,,10226
+dioxoxigenio.com.br,ok,http,https://dioxoxigenio.com.br/,4,ok,200,,,,,12137
+doringpoort.com,ok,http,https://doringpoort.com/,19,ok,200,,,,,15687
+fsbwyoming.com,ok,http,https://myfrbank.com/,24,ok,200,,,,,23489
+msc-manching.de,ok,http,https://msc-manching.de/,14,ok,200,,,,,2960
+sgsextremaratio.it,ok,http,https://sgsextremaratio.it/,9,ok,200,,,,,10886
+coastwidemechanicalcentralcoast.com.au,ok,http,https://coastwidemechanicalcentralcoast.com.au/,17,ok,200,,,,,14330
+amourfinder.com,ok,http,https://www.amourfinder.com/,6,ok,200,,,,,17178
+lojatatical.com.br,ok,http,https://www.lojatatical.com.br/,17,ok,200,,,,,18832
+jobresourcecentre.com,ok,http,https://jobresourcecentre.com/,25,ok,200,,,,,12955
+ferienwohnung-kastell.de,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,9252
+253media.com,ok,http,https://www.253media.com/,21,ok,200,,,,,14708
+velvety.eu,blocked,unknown WAF,https://www.velvety-cosmetics.com/,1,blocked,403,,,,,16131
+doortodoororganics.com,ok,http,https://doortodoororganics.com/,7,ok,200,,,,,10133
+kentpropertyrenovations.co.uk,ok,http,https://kentpropertyrenovations.co.uk/,14,ok,200,,,,,7612
+fisherinvestments.com,blocked,unknown WAF,https://fisherinvestments.com/,2,blocked,403,,,,,6699
+rionecontrastanga.net,ok,http,https://rionecontrastanga.net/,20,ok,200,,,,,8889
+stwannas.com,blocked,cloudflare,https://www.stwannas.com/,5,challenge,403,,,,,11900
+empresasori.com,ok,http,https://empresasori.com/,24,ok,200,,,,,7918
+familybroker.cz,unreachable,HTTP 404,https://familybroker.cz/,3,error,404,,,,,11504
+genesisny.net,ok,http,https://genesisny.net/,4,ok,200,,,,,5360
+5w.design,blocked,cloudflare,https://5w.design/,5,challenge,403,,,,,2739
+huberautomotive.com,blocked,akamai,https://huberautomotive.com/,2,challenge,403,,,,,2664
+marien-apotheke-grefrath-app.de,ok,http,https://www.marien-apotheke-grefrath-app.de/,3,ok,200,,,,,8856
+centreconsiliereavort.ro,ok,http,https://centreconsiliereavort.ro/,13,ok,200,,,,,2144
+infoaboutnetwork.com,ok,http,https://infoaboutnetwork.com/,6,ok,200,,,,,5177
+11853prospecthill.com,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,1497
+passwordstore.it,ok,http,https://passwordstore.it/,14,ok,200,,,,,13289
+avocatalinamanciu.ro,ok,http,https://avocatalinamanciu.ro/,26,ok,200,,,,,1530
+abcdpinturas.com.br,unreachable,HTTP 404,https://americansolutions.com.br/congelado.html,2,error,404,,,,,35659
+dssfla.com,ok,http,https://www.dssfla.com/,22,ok,200,,,,,12494
+weducars.co.za,ok,http,https://weducars.co.za/,27,ok,200,,,,,9834
+4stonebuildings.com,ok,http,https://4stonebuildings.com/,21,ok,200,,,,,2002
+maniaupiekszania.pl,ok,http,https://maniaupiekszania.pl/,21,ok,200,,,,,8684
+sprucemeadowsmd.com,ok,http,https://sprucemeadowsmd.com/,12,ok,200,,,,,7228
+natedea.co.uk,blocked,cloudflare,https://natedea.co.uk/,5,challenge,403,,,,,5960
+loizillon.com,blocked,unknown WAF,https://www.loizillon.com/,2,blocked,403,,,,,10115
+haus-muehlenfeld-pommerby.de,blocked,unknown WAF,https://haus-muehlenfeld-pommerby.de/,2,blocked,403,,,,,5296
+arenaskolor.se,ok,http,https://arenaskolor.se/,17,ok,200,,,,,5831
+boken.ch,ok,http,https://boken.ch/,16,ok,200,,,,,5667
+restwellstreetmedicalcentre.com.au,ok,http,https://restwellstreetmedicalcentre.com.au/,10,ok,200,,,,,7591
+den-a-sha.co.jp,ok,http,http://den-a-sha.co.jp/,4,ok,200,,,,,16050
+365outsource.com,ok,http,https://www.365outsource.com/,25,ok,200,,,,,11472
+aida-cruises.at,blocked,unknown WAF,https://aida-cruises.at/,3,blocked,403,,,,,3512
+lets.gr,empty,no content,https://lets.gr/,3,empty,200,,,,,12683
+skywayrestaurants.net,ok,http,https://skywayrestaurants.net/cgi-sys/suspendedpage.cgi,4,ok,200,,,,,7049
+2020wealthadvisory.com,ok,http,https://2020wealthadvisory.com/,21,ok,200,,,,,1883
+hnafirm.com,ok,http,https://www.hnafirm.com/,14,ok,200,,,,,14642
+itsolutions24.pl,ok,http,https://itsolutions24.pl/,13,ok,200,,,,,4593
+aaice.net,ok,http,https://aaice.net/,24,ok,200,,,,,1866
+ecolab.com,blocked,akamai,https://www.ecolab.com/,3,challenge,403,,,,,9858
+mehmetefendimacedonia.com,ok,http,https://mehmetefendimacedonia.com/,8,ok,200,,,,,3793
+laplumedelisibilite.fr,ok,http,https://www.laplumedelisibilite.fr/,11,ok,200,,,,,9750
+2ldm.com,ok,http,https://2ldm.com/,26,ok,200,,,,,3850
+westchesterpointechiro.com,ok,http,https://www.westchesterpointechiro.com/,12,ok,200,,,,,10013
+cei-expertises.fr,ok,http,https://www.cei-expertises.fr/,21,ok,200,,,,,11508
+seringa-safaris.com,blocked,cloudflare,https://seringasafaris.com/,5,challenge,200,,,,,8142
+1planettechnologies.weebly.com,ok,http,https://1planettechnologies.weebly.com/,10,ok,200,,,,,2868
+soziale-dreigliederung.de,blocked,unknown WAF,https://soziale-dreigliederung.de/,3,blocked,403,,,,,2626
+premierhomeremodeling.net,ok,http,https://premierhomeremodeling.net/,4,ok,200,,,,,5086
+bas-ingenieria.cl,ok,http,https://bas-ingenieria.cl/,8,ok,200,,,,,4138
+produkttheater.de,blocked,unknown WAF,https://produkttheater.de/,3,blocked,403,,,,,3445
+unnames.com,ok,http,https://unnames.com/,18,ok,200,,,,,6368
+handycars.com,ok,http,https://www.handycars.com/,19,ok,200,,,,,7809
+antikebau.de,unreachable,HTTP 500,https://antikebau.de/,3,error,500,,,,,17379
+3strandschurch.org,blocked,cloudflare,https://3strandschurch.org/,5,challenge,403,,,,,6052
+alabamabuildingcontractor.com,ok,http,https://www.alabamabuildingcontractor.com/,14,ok,200,,,,,6064
+resourceservicesolutions.com,ok,http,https://resourceservicesolutions.com/,7,ok,200,,,,,5639
+skywardspeech.com.au,ok,http,https://www.skywardspeech.com.au/,23,ok,200,,,,,15217
+sevecoitalia.com,ok,http,https://www.sevecoitalia.com,10,ok,200,,,,,8776
+nielsbirk.dk,ok,http,https://nielsbirk.dk/cgi-sys/suspendedpage.cgi,4,ok,200,,,,,5017
+branson-connection.com,unreachable,RemoteProtocolError: Server disconnected without sending a response.,,0,error,,,,,,18728
+phucankhanggroup.com,ok,http,https://phucankhanggroup.com/,16,ok,200,,,,,6188
+roccofortehotels.cn,blocked,akamai,https://www.roccofortehotels.cn/,3,challenge,403,,,,,9280
+everhartsoutdoor.com,blocked,unknown WAF,https://www.everhartsoutdoor.com/,3,blocked,403,,,,,10727
+europeaninns.com,ok,http,https://europeaninns.com/,2,ok,200,,,,,3608
+massageforworldpeace.com,ok,http,https://www.massageforworldpeace.com,5,ok,200,,,,,9342
+cultivateventures.co.nz,ok,http,https://cultivateventures.co.nz/,12,ok,200,,,,,5524
+amaronbattery.in,ok,http,https://amaronbattery.in/,5,ok,200,,,,,4032
+radxmobile.com,ok,http,https://www.radxmobile.com/,14,ok,200,,,,,7474
+2-com.net,ok,http,https://2-com.net/,8,ok,200,,,,,4111
+3bsexcavating.com,blocked,cloudflare,https://3bsexcavating.com/,5,challenge,403,,,,,5104
+weissbauchpapageien.de,blocked,cloudflare,https://p2-1.afp24.net/true1.php?id=weis44j4dh3o49xk,5,challenge,403,,,,,7497
+959marine.com,ok,http,https://www.959marine.com/,11,ok,200,,,,,7883
+hansis-knusperhendl-foodtruck.eatbu.com,ok,http,https://hansis-knusperhendl-foodtruck.eatbu.com/?lang=en,10,ok,200,,,,,8590
+broganlmt.com,ok,http,https://www.broganlmt.com/,18,ok,200,,,,,13407
+juanmunozhomesmart.com,blocked,akamai,https://www.juanmunozhomesmart.com/,2,challenge,403,,,,,15428
+buchhaltungsservice-koenig.de,ok,http,https://buchhaltungsservice-koenig.de/,13,ok,200,,,,,7136
+solvos.nl,ok,http,https://www.solvos.nl/nl/,6,ok,200,,,,,8962
+261welfarefund.com,blocked,cloudflare,https://261welfarefund.com/,5,challenge,403,,,,,3119
+costa-coffee.be,ok,http,https://www.costa-coffee.be/,14,ok,200,,,,,13164
+startravelcompany.com,unreachable,timeout,,0,error,,,,,,67874
+disinfestazioniepiscine.it,ok,http,https://www.disinfestazioniepiscine.it/,20,ok,200,,,,,18760
+lscms.org,ok,http,https://lscms.org/,16,ok,200,,,,,6690
+3dwealthadvisory.com,ok,http,https://3dwealthadvisory.com/,18,ok,200,,,,,3826
+jackwills.com,ok,http,https://www.jackwills.com/,13,ok,200,,,,,15034
+nevsproductions.com,unreachable,HTTP 404,https://www.nevsproductions.com,2,error,404,,,,,16936
+kande-hoikuen.ed.jp,ok,http,https://kande-hoikuen.ed.jp/,5,ok,200,,,,,5482
+orifoodsco.com,ok,http,https://www.orifoodsco.com/,12,ok,200,,,,,12616
+deerfieldbeachautomall.com,blocked,akamai,https://deerfieldbeachautomall.com/,2,challenge,403,,,,,10058
+insieme.stanford.edu,ok,http,https://insieme.stanford.edu/,16,ok,200,,,,,3890
+layer7innovations.ca,ok,http,https://layer7innovations.ca/,9,ok,200,,,,,3099
+makpharma-eg.com,ok,http,https://makpharma-eg.com/,6,ok,200,,,,,6874
+ejc-courtage-assurances.fr,ok,http,https://ejc-courtage-assurances.fr/,7,ok,200,,,,,6639
+ferrateoxidant.com,ok,http,https://ferrateoxidant.com/,15,ok,200,,,,,7514
+oakwell.vet,ok,http,https://oakwell.vet/,20,ok,200,,,,,8593
+mysterion.hr,ok,http,https://mysterion.hr/,31,ok,200,,,,,7649
+howellmotors.com,blocked,akamai,https://www.howellmotors.com/,2,challenge,403,,,,,11137
+lorenz-baumarkt.de,ok,http,https://www.lorenz-baumarkt.de/,11,ok,200,,,,,9054
+eclairage-solaire-occitanie.com,unreachable,HTTP 404,https://eclairage-solaire-occitanie.com/,3,error,404,,,,,37033
+cmc01village.com,parked,domain parking page,https://cmc01village.com/,0,parked,200,,,,,7795
+maiquotes.net,ok,http,https://portal.mymarylandauto.com/site/wp-login.php?redirect_to=https%3A%2F%2Fportal.mymarylandauto.com%2Fsite,11,ok,200,,,,,22970
+cmresolutions.com,ok,http,https://cmresolutions.com/,3,ok,200,,,,,7704
+wglchurch.com,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,5461
+nwmotorinn.com,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,4860
+dorpsbelangen.nu,ok,http,https://www.dorpsbelangen.nu/,19,ok,200,,,,,18766
+littlerockafamily.de,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,2130
+evelynanders.com,blocked,unknown WAF,https://evelynanders.com/,4,blocked,403,,,,,5022
+domekvefaru.com,ok,http,https://www.domekvefaru.com/,7,ok,200,,,,,7922
+sdmdjentertainment.com,ok,http,https://sdmdjentertainment.com/,8,ok,200,,,,,3243
+ideenhunger.com,ok,http,https://www.ideenhunger.com/,18,ok,200,,,,,6747
+jenniferbacksteininteriors.com,ok,http,https://www.jenniferbacksteininteriors.com/,10,ok,200,,,,,15701
+elcolegiocongresosyrestaurante.com,ok,http,https://elcolegiocongresosyrestaurante.com/,6,ok,200,,,,,11780
+northshoremacnut.com,blocked,unknown WAF,https://northshoremacnut.com/,0,blocked,429,,,,,4061
+powercleaning.services,ok,http,https://powercleaning.services/,15,ok,200,,,,,6727
+stoperbis.pl,ok,http,https://stoperbis.pl/,4,ok,200,,,,,3592
+verticalcommunitychurch.com,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,3436
+gitesducharmois.fr,ok,http,https://www.gitesducharmois.fr/,14,ok,200,,,,,13334
+allegrocreditbeta.com,ok,http,https://www.synchrony.com/help/faqs?tab=cc-fin#allegro-transition-to-synchrony-pay-later,15,ok,200,,,,,17694
+hoffmaninstitute.co.uk,ok,http,https://hoffmaninstitute.co.uk/,21,ok,200,,,,,5225
+a3sec.com,ok,http,https://a3sec.com/,17,ok,200,,,,,5890
+concrete-fitness.edan.io,blocked,cloudflare,https://concrete-fitness.edan.io/,3,challenge,403,,,,,1449
+nicholsonchiro.com,ok,http,https://nicholsonchiro.com/,24,ok,200,,,,,12156
+la-residenza-del-principe-rome-it.booked.net,unreachable,HTTP 404,https://la-residenza-del-principe-rome-it.booked.net/,3,error,404,,,,,9937
+jonesbuickgmc.com,ok,http,https://jonesbuickgmc.com/,16,ok,200,,,,,7212
+xn--jobvrkstedet-9cb.nu,ok,http,https://xn--jobvrkstedet-9cb.nu/,13,ok,200,,,,,7354
+appelpsychotherapy.com,ok,http,https://www.appelpsychotherapy.com/,14,ok,200,,,,,23256
+brucebournesold.com,blocked,akamai,https://www.brucebournesold.com/,2,challenge,403,,,,,15386
+pcb-cpb.com,ok,http,https://www.pcb-cpb.com/,19,ok,200,,,,,18446
+chiantifiorentino.it,empty,no content,https://www.chiantifiorentino.it/web/,4,empty,200,,,,,35780
+11thhourracing.org,ok,http,https://11thhourracing.org/,10,ok,200,,,,,10512
+miratrade.com.tr,empty,no content,https://miratrade.com.tr/,3,empty,200,,,,,32326
+freo.com.au,ok,http,https://freo.com.au/,5,ok,200,,,,,8954
+fluxar.com.ar,ok,http,https://www.fluxar.com.ar/,29,ok,200,,,,,24076
+redpants.jp,ok,http,https://www.redpants.jp/,12,ok,200,,,,,26998
+bata.edu.hu,ok,http,https://bata.edu.hu/,10,ok,200,,,,,9473
+3-energie-klaas.de,ok,http,https://3-energie-klaas.de/,7,ok,200,,,,,9177
+labdemo.com,ok,http,https://labdemo.com/,16,ok,200,,,,,9712
+1ststopsupply.com,unreachable,HTTP 409,http://1ststopsupply.com/,3,error,409,,,,,8356
+celiabedilia.com,ok,http,http://celiabedilia.com/,4,ok,200,,,,,27665
+davidloeppke.com,ok,http,https://davidloeppke.com/,17,ok,200,,,,,7789
+wrinkle-pei.cz,ok,http,https://wrinkle-pei.cz/,3,ok,200,,,,,8730
+koniczynka.info.pl,ok,http,https://www.koniczynka.info.pl/,25,ok,200,,,,,20458
+footasylum.com,ok,http,https://www.footasylum.com/,15,ok,200,,,,,27671
+2agateway.com,ok,http,https://2agateway.com/,17,ok,200,,,,,11359
+ledestjernenstu.dk,ok,http,https://ledestjernenstu.dk/,24,ok,200,,,,,6919
+1stlocksheathscouts.org.uk,blocked,cloudflare,https://1stlocksheathscouts.org.uk/,5,challenge,403,,,,,10953
+tamcconstruction.net,unreachable,connect: [Errno 11001] getaddrinfo failed,,0,error,,,,,,2965
+abbikadabbisbakingco.com,ok,http,https://www.abbikadabbisbakingco.com,10,ok,200,,,,,15665
+herbalwise.ie,ok,http,https://herbalwise.ie/,19,ok,200,,,,,13016
+deepseass.com,ok,http,https://www.deepseass.com/,18,ok,200,,,,,21760
+aardvarkelectriccorp.com,unreachable,HTTP 409,http://aardvarkelectriccorp.com/,3,error,409,,,,,12126
+needaphysio.com,ok,http,https://www.needaphysio.com/,8,ok,200,,,,,14252
+thomasrosenbaum.com,ok,http,https://www.thomasrosenbaum.com/,12,ok,200,,,,,19792
+100wwcstlw.org,ok,http,https://100wwcstlw.org/,7,ok,200,,,,,13204
+shapirolawfirm.com,ok,http,https://shapirolawfirm.com/,18,ok,200,,,,,13381
+joseph-herber.business.site,unreachable,HTTP 404,https://joseph-herber.business.site/,2,error,404,,,,,20255
+arol.cl,ok,http,https://arol.cl/,5,ok,200,,,,,15104
+sindacatobadanti.it,blocked,unknown WAF,https://www.sindacatobadanti.it/,12,blocked,503,,,,,14180
+1stclairavewest.com,unreachable,HTTP 409,http://1stclairavewest.com/,3,error,409,,,,,11021
+lighthouseprc.org,ok,http,https://lighthouseprc.org/,19,ok,200,,,,,9707
+5rcircleprocess.weebly.com,ok,http,https://5rcircleprocess.weebly.com/,11,ok,200,,,,,5629
+unitedveterinaryservice.com,ok,http,https://unitedveterinaryservice.com/,17,ok,200,,,,,10100
+construccionesyatecnicas.com,ok,http,https://construccionesyatecnicas.com/,9,ok,200,,,,,6993
+joburgheritage.org.za,ok,http,https://joburgheritage.org.za/,22,ok,200,,,,,12988
+bfnelson.it,ok,http,https://bfnelson.it/,13,ok,200,,,,,6800
+rivithead.com,ok,http,https://www.rivithead.com/,9,ok,200,,,,,9213

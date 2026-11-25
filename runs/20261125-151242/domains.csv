@@ -1,0 +1,201 @@
+domain,status,status_detail,final_url,techs_found,http_verdict,http_status,browser_verdict,browser_status,challenge_waited,tls_issuer,elapsed_ms
+jcmobilecigars.com,dead,NXDOMAIN,,0,error,,,,,,604
+somalidisablesupport.com,ok,browser,https://somalidisablesupport.com/,24,ok,200,ok,200,False,Let's Encrypt,27003
+yourfamilylines.com,ok,browser,https://yourfamilylines.com/,5,ok,200,ok,200,False,,39824
+szentkristofudvarhaz.hu,ok,browser,https://szentkristofudvarhaz.hu/,13,ok,200,ok,200,False,Let's Encrypt,29013
+disneystore.com,ok,browser,https://www.disneystore.com/,45,ok,200,ok,200,False,Let's Encrypt,71426
+chavchavadze-m2-41-tbilisi.booked.net,unreachable,HTTP 404,https://chavchavadze-m2-41-tbilisi.booked.net/,3,error,404,error,404,False,Google Trust Services,82102
+trs-energycontrol.de,ok,browser,https://www.trs-energycontrol.de/,17,ok,200,ok,200,False,Let's Encrypt,38985
+xn--kleoghvidevareservice-qfc.dk,ok,browser,https://xn--kleoghvidevareservice-qfc.dk/,18,ok,200,ok,200,False,Let's Encrypt,21012
+gogroupauto.com,ok,browser,https://www.gogroupauto.com/,27,ok,200,ok,200,False,,58523
+231selfstorage.com,ok,browser,https://231selfstorage.com/,22,challenge,403,ok,200,False,Let's Encrypt,19864
+globalrn.com,unreachable,HTTP 526,https://globalrn.com/,6,error,526,error,526,False,Google Trust Services,99722
+cytofastmed.com,ok,browser,https://www.cytofastmed.com/,35,ok,200,ok,200,False,Let's Encrypt,71026
+5starremoval.weebly.com,unreachable,HTTP 404,https://5starremoval.weebly.com/,5,error,404,error,404,False,Let's Encrypt,86046
+coenzwezerijnen.nu,unreachable,connect: All connection attempts failed,,0,error,,error,,False,,103287
+gutendorf.ru,ok,browser,https://gutendorf.ru/,19,ok,200,ok,200,False,Let's Encrypt,32127
+katesworldtravel.com,ok,browser,https://katesworldtravel.com/,29,ok,200,ok,200,False,Let's Encrypt,35165
+3xd.co.uk,ok,browser,https://www.3xd.co.uk/,34,challenge,403,ok,200,False,Let's Encrypt,22434
+gapconstructionwi.com,ok,browser,https://www.gapconstructionwi.com/,27,ok,200,ok,200,False,Let's Encrypt,46145
+imgs.co.jp,blocked,akamai,https://www.imgs.co.jp/index.html,17,challenge,200,challenge,200,False,Amazon,65379
+clotting-guide.online,ok,browser,https://www.clotting-guide.online/de/ueber/,18,ok,200,ok,200,False,Let's Encrypt,60414
+38inspect.com,ok,browser,https://www.38inspect.com/,24,ok,200,ok,200,False,Google Trust Services,59793
+newbeaverborough.org,ok,browser,https://newbeaverborough.org/,23,ok,200,ok,200,False,Let's Encrypt,52984
+largsbaychiropractic.com.au,ok,browser,https://www.largsbaychiropractic.com.au/,20,ok,200,ok,200,False,Let's Encrypt,53147
+rsthealthcare.com,ok,browser,https://rsthealthcare.com/,10,ok,200,ok,200,False,Let's Encrypt,43092
+dioxoxigenio.com.br,ok,browser,https://dioxoxigenio.com.br/,6,ok,200,ok,200,False,,31540
+doringpoort.com,ok,browser,https://doringpoort.com/,26,ok,200,ok,200,False,Let's Encrypt,63560
+fsbwyoming.com,ok,browser,https://myfrbank.com/,33,ok,200,ok,200,False,GoDaddy.com,55553
+msc-manching.de,ok,browser,https://msc-manching.de/,17,ok,200,ok,200,False,Let's Encrypt,54875
+sgsextremaratio.it,ok,browser,https://sgsextremaratio.it/,11,ok,200,ok,200,False,Let's Encrypt,53016
+coastwidemechanicalcentralcoast.com.au,ok,browser,https://coastwidemechanicalcentralcoast.com.au/,24,ok,200,ok,200,False,Let's Encrypt,63093
+amourfinder.com,blocked,akamai,https://www.amourfinder.com/,9,challenge,200,challenge,200,False,Let's Encrypt,55003
+lojatatical.com.br,ok,browser,https://www.lojatatical.com.br/,25,ok,200,ok,200,False,Let's Encrypt,75505
+jobresourcecentre.com,ok,browser,https://jobresourcecentre.com/,35,ok,200,ok,200,False,Let's Encrypt,56927
+ferienwohnung-kastell.de,dead,NXDOMAIN,,0,error,,,,,,53
+253media.com,ok,browser,https://www.253media.com/,33,ok,200,ok,200,False,Google Trust Services,53994
+velvety.eu,ok,browser,https://www.velvety-cosmetics.com/,30,ok,200,ok,200,False,Let's Encrypt,54443
+doortodoororganics.com,ok,browser,https://doortodoororganics.com/,9,ok,200,ok,200,False,Google Trust Services,54811
+kentpropertyrenovations.co.uk,ok,browser,https://kentpropertyrenovations.co.uk/,19,ok,200,ok,200,False,Let's Encrypt,52424
+fisherinvestments.com,blocked,unknown WAF,https://fisherinvestments.com/,8,blocked,403,blocked,403,False,Let's Encrypt,47402
+rionecontrastanga.net,ok,browser,https://rionecontrastanga.net/,32,ok,200,ok,200,False,Let's Encrypt,53489
+stwannas.com,blocked,cloudflare,https://www.stwannas.com/,8,challenge,403,challenge,403,True,Let's Encrypt,69698
+empresasori.com,ok,browser,https://empresasori.com/,30,ok,200,ok,200,False,,53932
+familybroker.cz,unreachable,HTTP 404,https://familybroker.cz/,4,error,404,error,404,False,Google Trust Services,92067
+genesisny.net,ok,browser,https://genesisny.net/,7,ok,200,ok,200,False,Let's Encrypt,46968
+5w.design,ok,browser,https://5w.design/,26,challenge,403,ok,200,False,Let's Encrypt,39627
+huberautomotive.com,ok,browser,https://www.huberautomotive.com/,24,ok,200,ok,200,False,Let's Encrypt,53353
+marien-apotheke-grefrath-app.de,ok,browser,https://www.marien-apotheke-grefrath-app.de/,7,ok,200,ok,200,False,Let's Encrypt,40373
+centreconsiliereavort.ro,ok,browser,https://centreconsiliereavort.ro/,15,ok,200,ok,200,False,Let's Encrypt,40498
+infoaboutnetwork.com,ok,browser,https://www.infoaboutnetwork.com/,19,ok,200,ok,200,False,Google Trust Services,58370
+11853prospecthill.com,dead,NXDOMAIN,,0,error,,,,,,59
+passwordstore.it,ok,browser,https://passwordstore.it/,24,ok,200,ok,200,False,Let's Encrypt,42460
+avocatalinamanciu.ro,ok,browser,https://avocatalinamanciu.ro/,33,ok,200,ok,200,False,Let's Encrypt,37973
+abcdpinturas.com.br,unreachable,HTTP 404,https://americansolutions.com.br/congelado.html,2,error,404,error,404,False,,84303
+dssfla.com,ok,browser,https://www.dssfla.com/,31,ok,200,ok,200,False,Let's Encrypt,52964
+weducars.co.za,ok,browser,https://weducars.co.za/,32,ok,200,ok,200,False,Let's Encrypt,48209
+4stonebuildings.com,ok,browser,https://4stonebuildings.com/,27,ok,200,ok,200,False,Google Trust Services,37947
+maniaupiekszania.pl,ok,browser,https://maniaupiekszania.pl/,30,ok,200,ok,200,False,Let's Encrypt,54017
+sprucemeadowsmd.com,ok,browser,https://sprucemeadowsmd.com/,14,ok,200,ok,200,False,GoDaddy.com,46813
+natedea.co.uk,ok,browser,https://www.natedea.co.uk/,30,challenge,403,ok,200,False,Let's Encrypt,50099
+loizillon.com,ok,browser,https://www.loizillon.com/,21,ok,200,ok,200,False,Let's Encrypt,49513
+haus-muehlenfeld-pommerby.de,ok,browser,https://haus-muehlenfeld-pommerby.de/,18,blocked,503,ok,200,False,Sectigo Limited,52910
+arenaskolor.se,ok,browser,https://arenaskolor.se/,23,ok,200,ok,200,False,Let's Encrypt,47658
+boken.ch,ok,browser,https://boken.ch/,19,ok,200,ok,200,False,Let's Encrypt,49220
+restwellstreetmedicalcentre.com.au,ok,browser,https://restwellstreetmedicalcentre.com.au/,13,ok,200,ok,200,False,Let's Encrypt,51071
+den-a-sha.co.jp,ok,browser,http://den-a-sha.co.jp/,6,ok,200,ok,200,False,,45996
+365outsource.com,ok,browser,https://www.365outsource.com/,33,ok,200,ok,200,False,Google Trust Services,54864
+aida-cruises.at,ok,browser,https://aida-cruises.at/,24,ok,200,ok,200,False,DigiCert Inc,49069
+lets.gr,ok,browser,https://lets.gr/,8,empty,200,ok,200,False,Let's Encrypt,44414
+skywayrestaurants.net,ok,browser,https://skywayrestaurants.net/cgi-sys/suspendedpage.cgi,5,ok,200,ok,200,False,Let's Encrypt,49190
+2020wealthadvisory.com,ok,browser,https://2020wealthadvisory.com/,28,ok,200,ok,200,False,Google Trust Services,48697
+hnafirm.com,ok,browser,https://www.hnafirm.com/,18,ok,200,ok,200,False,Let's Encrypt,62296
+itsolutions24.pl,ok,browser,https://itsolutions24.pl/,15,ok,200,ok,200,False,Let's Encrypt,43660
+aaice.net,ok,browser,https://aaice.net/,33,ok,200,ok,200,False,Google Trust Services,47433
+ecolab.com,ok,browser,https://www.ecolab.com/en-us,52,ok,200,ok,200,False,,53217
+mehmetefendimacedonia.com,ok,browser,https://mehmetefendimacedonia.com/,10,ok,200,ok,200,False,Let's Encrypt,42105
+laplumedelisibilite.fr,ok,browser,https://www.laplumedelisibilite.fr/,13,ok,200,ok,200,False,Let's Encrypt,42893
+2ldm.com,ok,browser,https://2ldm.com/,33,ok,200,ok,200,False,Google Trust Services,43549
+westchesterpointechiro.com,ok,browser,https://www.westchesterpointechiro.com/,15,ok,200,ok,200,False,Let's Encrypt,50418
+cei-expertises.fr,ok,browser,https://www.cei-expertises.fr/,22,ok,200,ok,200,False,Let's Encrypt,52464
+seringa-safaris.com,blocked,cloudflare,https://seringasafaris.com/,9,challenge,200,challenge,200,False,Let's Encrypt,55398
+1planettechnologies.weebly.com,ok,browser,https://1planettechnologies.weebly.com/,25,ok,200,ok,200,False,Let's Encrypt,43252
+soziale-dreigliederung.de,ok,browser,https://www.soziale-dreigliederung.de/,8,blocked,403,ok,200,False,Let's Encrypt,39639
+premierhomeremodeling.net,ok,browser,https://premierhomeremodeling.net/,9,ok,200,ok,200,False,Let's Encrypt,49942
+bas-ingenieria.cl,ok,browser,https://bas-ingenieria.cl/,13,ok,200,ok,200,False,Let's Encrypt,43877
+produkttheater.de,blocked,unknown WAF,https://produkttheater.de/,3,blocked,403,blocked,403,False,,47796
+unnames.com,ok,browser,https://unnames.com/,24,ok,200,ok,200,False,Let's Encrypt,55340
+handycars.com,ok,browser,https://www.handycars.com/,26,ok,200,ok,200,False,Let's Encrypt,52039
+antikebau.de,unreachable,HTTP 500,https://antikebau.de/,4,error,500,error,500,False,DigiCert Inc,88385
+3strandschurch.org,ok,browser,https://3strandschurch.org/,25,challenge,403,ok,200,False,Let's Encrypt,50871
+alabamabuildingcontractor.com,ok,browser,https://www.alabamabuildingcontractor.com/,16,ok,200,ok,200,False,Google Trust Services,52746
+resourceservicesolutions.com,ok,browser,https://resourceservicesolutions.com/,10,ok,200,ok,200,False,GoDaddy.com,47858
+skywardspeech.com.au,ok,browser,https://www.skywardspeech.com.au/,29,ok,200,ok,200,False,Let's Encrypt,56128
+sevecoitalia.com,ok,browser,https://www.sevecoitalia.com/,13,ok,200,ok,200,False,Let's Encrypt,49451
+nielsbirk.dk,ok,browser,https://nielsbirk.dk/cgi-sys/suspendedpage.cgi,6,ok,200,ok,200,False,Let's Encrypt,47502
+branson-connection.com,ok,browser,https://cf.swiftwatch.site/middle.html?impId=x3agksWYqM0Uvn78HhIVkqQ4DltvE7RMHpuWisotd33&ct=tqt8yaQw7njkff2cUc5GFt1KZrCv0b28KjirS1t9PGYUZY0J9nQJR6J9ulCBjqRf_ZVDpsD59PKaLtsJj6BDoySHTy8rVW8kBIM404cXbGDebBWvJmnAmEW8LV9LwP_aVjwKIBMWmRysqlpymkGVAHPQOKa4U5xXmP3gEjHTWXxc7uwvK7jVIdCF4GuAGVmFmaoY8ynvzN_U8I1uquVzVCHvu0OTErR1oHVvojeumkK40fEr8usuvmSRXHGhitJxqPID1RjhOlJ95yxq6nSRysOsKlhAhY6_2MBKMkf3bV7tEstO_fURTQ,6,ok,200,ok,204,False,,46394
+phucankhanggroup.com,ok,browser,https://phucankhanggroup.com/,22,ok,200,ok,200,False,DigiCert Inc,62396
+roccofortehotels.cn,ok,browser,https://www.roccofortehotels.cn/,28,ok,200,ok,200,False,Let's Encrypt,56290
+everhartsoutdoor.com,blocked,unknown WAF,https://www.everhartsoutdoor.com/,7,blocked,403,blocked,403,False,Let's Encrypt,50070
+europeaninns.com,ok,browser,https://europeaninns.com/index.php,4,ok,200,ok,200,False,Let's Encrypt,39860
+massageforworldpeace.com,ok,browser,https://www.massageforworldpeace.com/,12,ok,200,ok,200,False,Sectigo Limited,45748
+cultivateventures.co.nz,ok,browser,https://cultivateventures.co.nz/,18,ok,200,ok,200,False,Let's Encrypt,47821
+amaronbattery.in,ok,browser,https://amaronbattery.in/,5,ok,200,ok,200,False,,54024
+radxmobile.com,ok,browser,https://www.radxmobile.com/,19,ok,200,ok,200,False,Let's Encrypt,50143
+2-com.net,ok,browser,https://2-com.net/,18,ok,200,ok,200,False,DigiCert Inc,52446
+3bsexcavating.com,ok,browser,https://3bsexcavating.com/,31,challenge,403,ok,200,False,Let's Encrypt,48415
+weissbauchpapageien.de,ok,browser,https://ts1.domainname.de/ts1domains/weissbauchpapageien.de?p=weis44j4dh3o49xk,8,challenge,200,ok,200,False,ZeroSSL GmbH,50246
+959marine.com,ok,browser,https://www.959marine.com/,22,ok,200,ok,200,False,Google Trust Services,50934
+hansis-knusperhendl-foodtruck.eatbu.com,ok,browser,https://hansis-knusperhendl-foodtruck.eatbu.com/?lang=en,18,ok,200,ok,200,False,Google Trust Services,48585
+broganlmt.com,ok,browser,https://www.broganlmt.com/,24,ok,200,ok,200,False,Let's Encrypt,56358
+juanmunozhomesmart.com,ok,browser,https://www.juanmunozhomesmart.com/,21,ok,200,ok,200,False,Let's Encrypt,57272
+buchhaltungsservice-koenig.de,ok,browser,https://buchhaltungsservice-koenig.de/,16,ok,200,ok,200,False,Sectigo Limited,50768
+solvos.nl,ok,browser,https://www.solvos.nl/nl/,8,ok,200,ok,200,False,Google Trust Services,42494
+261welfarefund.com,ok,browser,https://www.261welfarefund.com/,18,challenge,403,ok,200,False,Let's Encrypt,49415
+costa-coffee.be,ok,browser,https://www.costa-coffee.be/,18,ok,200,ok,200,False,Let's Encrypt,51202
+startravelcompany.com,error,TimeoutError: ,,0,,,,,,,
+disinfestazioniepiscine.it,ok,browser,https://www.disinfestazioniepiscine.it/,25,ok,200,ok,200,False,Let's Encrypt,68120
+lscms.org,ok,browser,https://lscms.org/,24,ok,200,ok,200,False,Let's Encrypt,53507
+3dwealthadvisory.com,ok,browser,https://3dwealthadvisory.com/,20,ok,200,ok,200,False,Google Trust Services,44638
+jackwills.com,ok,browser,https://www.jackwills.com/,24,ok,200,ok,200,False,GlobalSign nv-sa,48648
+nevsproductions.com,blocked,unknown WAF,https://nevsproductions.com/,13,blocked,503,error,404,False,Sectigo Limited,114190
+kande-hoikuen.ed.jp,ok,browser,https://kande-hoikuen.ed.jp/,8,ok,200,ok,200,False,Let's Encrypt,49531
+orifoodsco.com,ok,browser,https://www.orifoodsco.com/,19,ok,200,ok,200,False,Let's Encrypt,46755
+deerfieldbeachautomall.com,ok,browser,https://www.deerfieldbeachautomall.com/,25,ok,200,ok,200,False,Let's Encrypt,67423
+insieme.stanford.edu,ok,browser,https://insieme.stanford.edu/,20,ok,200,ok,200,False,DigiCert Inc,49620
+layer7innovations.ca,ok,browser,https://layer7innovations.ca/,12,ok,200,ok,200,False,Google Trust Services,49259
+makpharma-eg.com,ok,browser,https://makpharma-eg.com/,11,ok,200,ok,200,False,GoDaddy.com,53021
+ejc-courtage-assurances.fr,ok,browser,https://ejc-courtage-assurances.fr/,14,ok,200,ok,200,False,Let's Encrypt,45312
+ferrateoxidant.com,ok,browser,https://ferrateoxidant.com/,20,ok,200,ok,200,False,Let's Encrypt,55204
+oakwell.vet,ok,browser,https://oakwell.vet/,27,ok,200,ok,200,False,Let's Encrypt,60071
+mysterion.hr,ok,browser,https://mysterion.hr/,35,ok,200,ok,200,False,Google Trust Services,52392
+howellmotors.com,ok,browser,https://www.howellmotors.com/,43,ok,200,ok,200,False,,70326
+lorenz-baumarkt.de,ok,browser,https://www.lorenz-baumarkt.de/,20,ok,200,ok,200,False,Let's Encrypt,56595
+eclairage-solaire-occitanie.com,unreachable,HTTP 404,https://eclairage-solaire-occitanie.com/,4,error,404,error,404,False,Let's Encrypt,114154
+cmc01village.com,parked,domain parking page,https://cmc01village.com/,0,parked,200,,,,GoDaddy.com,5349
+maiquotes.net,ok,browser,https://portal.mymarylandauto.com/site/wp-login.php?redirect_to=https%3A%2F%2Fportal.mymarylandauto.com%2Fsite,11,ok,200,ok,200,False,,50966
+cmresolutions.com,ok,browser,https://cmresolutions.com/,3,ok,200,ok,200,False,,52295
+wglchurch.com,dead,NXDOMAIN,,0,error,,,,,,36
+nwmotorinn.com,dead,NXDOMAIN,,0,error,,,,,,37
+dorpsbelangen.nu,ok,browser,https://www.dorpsbelangen.nu/,24,ok,200,ok,200,False,Let's Encrypt,67712
+littlerockafamily.de,dead,NXDOMAIN,,0,error,,,,,,34
+evelynanders.com,ok,browser,https://evelynanders.com/,8,ok,200,ok,200,False,Let's Encrypt,50781
+domekvefaru.com,ok,browser,https://www.domekvefaru.com/,10,ok,200,ok,200,False,Let's Encrypt,62248
+sdmdjentertainment.com,ok,browser,https://sdmdjentertainment.com/,12,ok,200,ok,200,False,GoDaddy.com,61715
+ideenhunger.com,ok,browser,https://www.ideenhunger.com/,26,ok,200,ok,200,False,Google Trust Services,64971
+jenniferbacksteininteriors.com,ok,browser,https://www.jenniferbacksteininteriors.com/,16,ok,200,ok,200,False,Let's Encrypt,64362
+elcolegiocongresosyrestaurante.com,ok,browser,https://elcolegiocongresosyrestaurante.com/,8,ok,200,ok,200,False,Let's Encrypt,66802
+northshoremacnut.com,ok,browser,https://www.northshoremacnut.com/,26,ok,200,ok,200,False,Google Trust Services,63270
+powercleaning.services,ok,browser,https://powercleaning.services/,23,error,,ok,200,False,Let's Encrypt,62916
+stoperbis.pl,ok,browser,https://stoperbis.pl/,7,ok,200,ok,200,False,ZeroSSL GmbH,64024
+verticalcommunitychurch.com,dead,NXDOMAIN,,0,error,,,,,,65
+gitesducharmois.fr,ok,browser,https://www.gitesducharmois.fr/,18,ok,200,ok,200,False,Let's Encrypt,63673
+allegrocreditbeta.com,ok,browser,https://www.synchrony.com/help/faqs?tab=cc-fin#allegro-transition-to-synchrony-pay-later,41,ok,200,ok,200,False,DigiCert Inc,70098
+hoffmaninstitute.co.uk,ok,browser,https://hoffmaninstitute.co.uk/,31,ok,200,ok,200,False,Let's Encrypt,60067
+a3sec.com,ok,browser,https://a3sec.com/,31,ok,200,ok,200,False,Google Trust Services,57039
+concrete-fitness.edan.io,blocked,cloudflare,https://concrete-fitness.edan.io/,5,challenge,403,challenge,403,True,Google Trust Services,78745
+nicholsonchiro.com,ok,browser,https://nicholsonchiro.com/,27,ok,200,ok,200,False,Let's Encrypt,67071
+la-residenza-del-principe-rome-it.booked.net,unreachable,HTTP 404,https://la-residenza-del-principe-rome-it.booked.net/,3,error,404,error,404,False,Google Trust Services,117223
+jonesbuickgmc.com,ok,browser,https://jonesbuickgmc.com/,40,ok,200,ok,200,False,Let's Encrypt,71667
+xn--jobvrkstedet-9cb.nu,ok,browser,https://xn--jobvrkstedet-9cb.nu/,14,error,454,ok,200,False,Let's Encrypt,59944
+appelpsychotherapy.com,ok,browser,https://www.appelpsychotherapy.com/,23,ok,200,ok,200,False,Let's Encrypt,69133
+brucebournesold.com,ok,browser,https://www.brucebournesold.com/,21,ok,200,ok,200,False,Let's Encrypt,79589
+pcb-cpb.com,ok,browser,https://www.pcb-cpb.com/,24,ok,200,ok,200,False,Google Trust Services,72965
+chiantifiorentino.it,ok,browser,https://www.chiantifiorentino.it/web/,27,ok,200,ok,200,False,Let's Encrypt,73491
+11thhourracing.org,ok,browser,https://11thhourracing.org/,32,ok,200,ok,200,False,Google Trust Services,68947
+miratrade.com.tr,empty,no content,https://miratrade.com.tr/,4,empty,200,empty,200,False,Google Trust Services,71915
+freo.com.au,ok,browser,https://freo.com.au/,6,ok,200,ok,200,False,Let's Encrypt,67747
+fluxar.com.ar,ok,browser,https://www.fluxar.com.ar/,32,ok,200,ok,200,False,Let's Encrypt,74210
+redpants.jp,ok,browser,https://www.redpants.jp/,18,ok,200,ok,200,False,Let's Encrypt,66928
+bata.edu.hu,ok,browser,https://bata.edu.hu/,13,ok,200,ok,200,False,Let's Encrypt,70059
+3-energie-klaas.de,ok,browser,https://3-energie-klaas.de/,9,ok,200,ok,200,False,Google Trust Services,63549
+labdemo.com,ok,browser,https://labdemo.com/,22,ok,200,ok,200,False,Let's Encrypt,68276
+1ststopsupply.com,unreachable,HTTP 409,http://1ststopsupply.com/,6,error,409,error,409,False,,67310
+celiabedilia.com,ok,browser,http://celiabedilia.com/,6,ok,200,ok,200,False,,82677
+davidloeppke.com,ok,browser,https://davidloeppke.com/,22,ok,200,ok,200,False,Let's Encrypt,60945
+wrinkle-pei.cz,ok,browser,https://wrinkle-pei.cz/,3,ok,200,ok,200,False,,59281
+koniczynka.info.pl,ok,browser,https://www.koniczynka.info.pl/,29,ok,200,ok,200,False,nazwa.pl Sp. z o.o.,60129
+footasylum.com,ok,browser,https://www.footasylum.com/,35,ok,200,ok,200,False,Amazon,66096
+2agateway.com,ok,browser,https://2agateway.com/,18,ok,200,ok,200,False,Google Trust Services,53376
+ledestjernenstu.dk,ok,browser,https://ledestjernenstu.dk/,30,error,454,ok,200,False,Let's Encrypt,57951
+1stlocksheathscouts.org.uk,ok,browser,https://1stlocksheathscouts.org.uk/,17,challenge,403,ok,200,False,Google Trust Services,44989
+tamcconstruction.net,dead,NXDOMAIN,,0,error,,,,,,111
+abbikadabbisbakingco.com,ok,browser,https://www.abbikadabbisbakingco.com/,21,ok,200,ok,200,False,Google Trust Services,55330
+herbalwise.ie,ok,browser,https://herbalwise.ie/,27,ok,200,ok,200,False,Let's Encrypt,57781
+deepseass.com,ok,browser,https://www.deepseass.com/,27,ok,200,ok,200,False,Let's Encrypt,52931
+aardvarkelectriccorp.com,unreachable,HTTP 409,http://aardvarkelectriccorp.com/,5,error,409,error,409,False,,46774
+needaphysio.com,ok,browser,https://www.needaphysio.com/,10,ok,200,ok,200,False,Google Trust Services,45612
+thomasrosenbaum.com,ok,browser,https://www.thomasrosenbaum.com/,17,ok,200,ok,200,False,Let's Encrypt,47738
+100wwcstlw.org,ok,browser,https://100wwcstlw.org/,8,ok,200,ok,200,False,Google Trust Services,46028
+shapirolawfirm.com,ok,browser,https://shapirolawfirm.com/,22,ok,200,ok,200,False,,47541
+joseph-herber.business.site,unreachable,HTTP 404,https://joseph-herber.business.site/,3,error,404,error,404,False,Google Trust Services,61970
+arol.cl,ok,browser,https://arol.cl/,6,ok,200,ok,200,False,Let's Encrypt,41424
+sindacatobadanti.it,blocked,unknown WAF,https://www.sindacatobadanti.it/,13,blocked,503,blocked,503,False,,48502
+1stclairavewest.com,unreachable,HTTP 409,http://1stclairavewest.com/,5,error,409,error,409,False,,41451
+lighthouseprc.org,ok,browser,https://lighthouseprc.org/,40,ok,200,ok,200,False,Let's Encrypt,48790
+5rcircleprocess.weebly.com,ok,browser,https://5rcircleprocess.weebly.com/,23,ok,200,ok,200,False,Let's Encrypt,37958
+unitedveterinaryservice.com,ok,browser,https://unitedveterinaryservice.com/,23,ok,200,ok,200,False,Sectigo Limited,40572
+construccionesyatecnicas.com,ok,browser,https://construccionesyatecnicas.com/,10,ok,200,ok,200,False,,36644
+joburgheritage.org.za,ok,browser,https://joburgheritage.org.za/,26,ok,200,ok,200,False,Let's Encrypt,49008
+bfnelson.it,ok,browser,https://bfnelson.it/,20,ok,200,ok,200,False,Let's Encrypt,43155
+rivithead.com,ok,browser,https://www.rivithead.com/,12,ok,200,ok,200,False,Sectigo Limited,41522

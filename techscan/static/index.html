@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>techscan</title>
+<style>
+:root{
+  --bg:#f6f7f9;--panel:#fff;--ink:#14171c;--muted:#636b78;--line:#e3e6eb;--soft:#eef0f3;
+  --accent:#2f5bea;--t1:#c2361f;--t1bg:#fde9e5;--t2:#a15c00;--t2bg:#fff1d6;--t3:#4b5563;--t3bg:#eceef1;
+  --ok:#1d7a46;--okbg:#e2f4ea;--bad:#b42318;--badbg:#fdecea;--warn:#9a6700;--warnbg:#fff4d1;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1115;--panel:#171a20;--ink:#e8eaee;--muted:#9aa3b2;--line:#2a2f38;--soft:#1f232b;
+  --accent:#7d9bff;--t1:#ff8a73;--t1bg:#3a1d17;--t2:#ffc266;--t2bg:#33270f;--t3:#c3c9d3;--t3bg:#262a32;
+  --ok:#5fd08f;--okbg:#14301f;--bad:#ff8a80;--badbg:#3a1a18;--warn:#ffd166;--warnbg:#33290d;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:20px 24px 8px;max-width:1280px;margin:0 auto}
+h1{font-size:20px;margin:0}
+header p{margin:4px 0 0;color:var(--muted)}
+main{max-width:1280px;margin:0 auto;padding:12px 24px 48px;display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+main>*,#view>*{min-width:0}
+select,input{max-width:100%}
+.tabs{display:flex;gap:4px;margin-top:14px;border-bottom:1px solid var(--line)}
+.tab{background:none;color:var(--muted);border-radius:0;border-bottom:2px solid transparent;padding:8px 12px;font-weight:600}
+.tab.on{color:var(--ink);border-bottom-color:var(--accent)}
+body[data-tab=scan] .tab-leads,body[data-tab=leads] .tab-scan{display:none!important}
+.stars{color:#e0a100;letter-spacing:1px;white-space:nowrap}
+.s1{background:var(--badbg);color:var(--bad)}.s2{background:var(--t1bg);color:var(--t1)}.s3{background:var(--warnbg);color:var(--warn)}.s4,.s5{background:var(--okbg);color:var(--ok)}
+.rtext{max-width:520px;font-size:13px}.rtext.clip{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+code{font:12px ui-monospace,Consolas,monospace;background:var(--soft);padding:1px 4px;border-radius:4px}
+.row>*{min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.drop{flex:1 1 320px;border:1.5px dashed var(--line);border-radius:10px;padding:18px;text-align:center;color:var(--muted);cursor:pointer}
+.drop.has{border-color:var(--accent);color:var(--ink)}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
+select,input[type=text],input[type=number]{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:7px 9px}
+button{font:inherit;border:0;border-radius:7px;padding:9px 16px;background:var(--accent);color:#fff;cursor:pointer;font-weight:600}
+button.ghost{background:var(--soft);color:var(--ink);font-weight:500;padding:6px 11px}
+button:disabled{opacity:.5;cursor:default}
+.bar{height:8px;background:var(--soft);border-radius:4px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi{background:var(--soft);border-radius:8px;padding:10px 12px}
+.kpi b{display:block;font-size:22px}
+.kpi span{color:var(--muted);font-size:12px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 10px;font-size:12px;cursor:pointer;font-weight:500}
+.chip.on{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--panel)}
+tr.r{cursor:pointer}tr.r:hover td{background:var(--soft)}
+.tag{display:inline-block;border-radius:5px;padding:1px 7px;margin:1px 3px 1px 0;font-size:12px;white-space:nowrap}
+.t1{background:var(--t1bg);color:var(--t1);font-weight:700}
+.t2{background:var(--t2bg);color:var(--t2)}
+.t3{background:var(--t3bg);color:var(--t3)}
+.st-ok{background:var(--okbg);color:var(--ok)}
+.st-blocked,.st-error,.st-unreachable{background:var(--badbg);color:var(--bad)}
+.st-parked,.st-dead,.st-empty{background:var(--warnbg);color:var(--warn)}
+.seg{font-weight:700;border-radius:5px;padding:1px 7px;font-size:12px}
+.seg-A{background:var(--t1bg);color:var(--t1)}.seg-B{background:var(--t2bg);color:var(--t2)}
+.seg-C{background:var(--okbg);color:var(--ok)}.seg-D,.seg-E,.seg-F{background:var(--t3bg);color:var(--t3)}
+.muted{color:var(--muted)}
+.detail td{background:var(--soft)}
+.ev{font:12px/1.4 ui-monospace,Consolas,monospace;color:var(--muted);word-break:break-all}
+.techgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px;margin-top:8px}
+.tech{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:7px 9px}
+.scroll{max-height:70vh;overflow:auto}
+.presets{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:12px}
+.preset{border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;background:var(--panel)}
+.preset.on{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
+.preset h3{margin:0;font-size:15px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.preset .time{font-size:20px;font-weight:700;margin:6px 0 2px}
+.preset p{margin:6px 0 0;font-size:12px;color:var(--muted)}
+.meter{display:flex;gap:3px;margin-top:8px}.meter i{height:5px;flex:1;border-radius:3px;background:var(--soft)}.meter i.f{background:var(--accent)}
+.log{max-height:180px;overflow:auto;font:12px/1.5 ui-monospace,Consolas,monospace}
+@media (max-width:640px){header,main{padding-left:16px;padding-right:16px}.hide-sm{display:none}}
+</style>
+</head>
+<body data-tab="scan">
+<header>
+  <h1>techscan</h1>
+  <p>Identify website technologies, with proof, and surface Shopify stores that use competing analytics tools.</p>
+  <nav class="tabs">
+    <button class="tab on" data-tabbtn="scan">Scan</button>
+    <button class="tab" data-tabbtn="leads">Leads · App Store reviews</button>
+  </nav>
+</header>
+<main>
+  <section class="tab-leads" id="leadsview">
+    <div class="kpis" id="lkpis"></div>
+    <div class="card" style="margin-top:16px">
+      <div class="row" style="justify-content:space-between">
+        <div>
+          <b>Competitor customers from Shopify App Store reviews</b>
+          <div class="muted" style="font-size:12px">Each review names the store that wrote it. Store names are matched to verified Shopify domains; unmatched stays unmatched (no guessing).</div>
+        </div>
+        <div class="row">
+          <label class="f">Pages per star<input type="number" id="lpages" value="5" min="1" max="30" style="width:80px"></label>
+          <button id="lrefresh">Collect &amp; update</button>
+        </div>
+      </div>
+      <div id="ljob" class="muted" style="margin-top:8px;display:none"><b id="ljobstep"></b> <span id="ljobtime"></span><div class="log" id="ljoblog" style="margin-top:6px"></div></div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <div style="margin-bottom:8px"><b>Competitor tool</b></div>
+      <div class="chips" id="ltools"></div>
+      <div style="margin:12px 0 8px"><b>Rating</b></div>
+      <div class="row" style="justify-content:space-between">
+        <div class="chips" id="lstars"></div>
+        <div class="row">
+          <label class="chip"><input type="checkbox" id="lverified"> Verified domain only</label>
+          <input type="text" id="lq" placeholder="Search store, domain, text" style="min-width:200px">
+          <button class="ghost" id="lcsv">Export CSV</button>
+        </div>
+      </div>
+      <div class="muted" id="lcount" style="margin:10px 0 4px;font-size:12px"></div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Rating</th><th>Tool</th><th>Store</th><th>Domain</th><th class="hide-sm">Using</th><th class="hide-sm">Date</th><th>Review</th></tr></thead>
+          <tbody id="lrows"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <b>Learned Shopify app pixel IDs</b>
+      <div class="muted" style="font-size:12px;margin-bottom:8px">An <code>apiClientId</code> found in the Web Pixels manifest of many reviewer stores of one app, and rarely elsewhere, identifies that app on any Shopify store. Learned IDs are used automatically by every scan.</div>
+      <div class="scroll" style="max-height:50vh"><table><thead><tr><th>Tool</th><th>Result</th><th>apiClientId</th><th>Evidence</th></tr></thead><tbody id="lids"></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="card tab-scan">
+    <div class="row">
+      <div class="drop" id="drop">Drop a domain list here or click to choose<br><small>.parquet · .csv · .txt · .json · .xlsx</small></div>
+      <input type="file" id="file" hidden accept=".parquet,.pq,.csv,.tsv,.txt,.json,.xlsx,.xls">
+    </div>
+    <div class="presets" id="presets"></div>
+    <div class="row" style="margin-top:12px">
+      <label class="f">Limit (0 = all)<input type="number" id="limit" value="0" min="0" style="width:100px"></label>
+      <label class="f" style="flex:1 1 200px">Label<input type="text" id="label" placeholder="optional"></label>
+      <span class="muted" id="eta" style="flex:1 1 200px"></span>
+      <button id="go" disabled>Scan</button>
+    </div>
+    <div id="job" style="display:none;margin-top:14px">
+      <div class="row" style="justify-content:space-between"><b id="jobtitle"></b><span id="jobcount" class="muted"></span></div>
+      <div class="bar" style="margin:8px 0"><i id="jobbar"></i></div>
+      <div class="log" id="joblog"></div>
+    </div>
+  </section>
+
+  <section class="card tab-scan">
+    <div class="row" style="justify-content:space-between">
+      <label class="f" style="flex:1 1 280px">Run<select id="runs" style="width:100%"></select></label>
+      <div class="row" id="dl"></div>
+    </div>
+  </section>
+
+  <section id="view" class="tab-scan" style="display:none;gap:16px">
+    <div class="kpis" id="kpis"></div>
+    <div class="card">
+      <div class="row" style="justify-content:space-between;margin-bottom:10px">
+        <div class="chips" id="segs"></div>
+        <div class="row">
+          <label class="chip" style="cursor:pointer"><input type="checkbox" id="onlyshop"> Shopify only</label>
+          <input type="text" id="q" placeholder="Search domain or technology" style="min-width:220px">
+        </div>
+      </div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Domain</th><th>Status</th><th class="hide-sm">Platform</th><th>Segment</th><th>Competing analytics</th><th>Score</th><th class="hide-sm">Techs</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const TIER = {shopify_analytics:"t1", behavior_analytics:"t2", product_analytics:"t2", web_analytics:"t3"};
+const SEG = {A:"Shopify + direct competitor",B:"Shopify + generic analytics",C:"Shopify, no analytics",D:"Other ecommerce + analytics",E:"Other site + analytics",F:"No signal / unreachable"};
+let upload = null, data = null, segFilter = new Set(), openRow = null, preset = "medium", ests = [];
+const DEPTH = {light:1, medium:2, advanced:3};
+const fmt = s => s < 90 ? `${Math.round(s)}s` : s < 3600 ? `${Math.round(s/60)} min` : `${Math.floor(s/3600)}h ${String(Math.round(s/60)%60).padStart(2,"0")}m`;
+
+const drop = $("#drop"), fileIn = $("#file");
+drop.onclick = () => fileIn.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add("has"); };
+drop.ondragleave = () => { if (!upload) drop.classList.remove("has"); };
+drop.ondrop = e => { e.preventDefault(); sendFile(e.dataTransfer.files[0]); };
+fileIn.onchange = () => sendFile(fileIn.files[0]);
+
+async function sendFile(f){
+  if (!f) return;
+  drop.classList.add("has"); drop.innerHTML = `<b>${esc(f.name)}</b><br><small>reading…</small>`;
+  const fd = new FormData(); fd.append("file", f);
+  const r = await fetch("/api/uploads", {method:"POST", body:fd});
+  const j = await r.json();
+  if (!r.ok) { drop.innerHTML = `<b>${esc(f.name)}</b><br><small style="color:var(--bad)">${esc(j.detail || "Could not read file")}</small>`; upload = null; $("#go").disabled = true; return; }
+  upload = j; ests = j.estimates;
+  drop.innerHTML = `<b>${esc(f.name)}</b> · ${j.domains} domains<br><small>${j.sample.map(esc).join(", ")}${j.domains > 5 ? ", …" : ""}</small>`;
+  $("#go").disabled = false; renderPresets();
+}
+
+async function refreshEstimates(){
+  const n = effectiveCount();
+  ests = (await (await fetch(`/api/estimate?n=${n}`)).json()).estimates; renderPresets();
+}
+function effectiveCount(){
+  const lim = parseInt($("#limit").value || "0", 10), total = upload ? upload.domains : 200;
+  return lim > 0 ? Math.min(lim, total) : total;
+}
+$("#limit").oninput = refreshEstimates;
+
+function renderPresets(){
+  const n = effectiveCount();
+  $("#presets").innerHTML = ests.map(e => `<div class="preset ${e.key===preset?"on":""}" data-p="${e.key}">
+      <h3>${e.name}<span class="muted" style="font-size:12px;font-weight:500">${n} domains</span></h3>
+      <div class="time">${esc(e.estimate_text)}</div>
+      <div class="meter">${[1,2,3].map(i => `<i class="${i<=DEPTH[e.key]?"f":""}"></i>`).join("")}</div>
+      <p>${esc(e.description)}</p>
+      <p>Benchmark (200 domains, run ${esc(e.measured_run)}): ${Math.round(e.measured_live_rate*100)}% sites analyzed live · ${e.measured_unique_techs} unique technologies</p>
+    </div>`).join("");
+  document.querySelectorAll("[data-p]").forEach(el => el.onclick = () => { preset = el.dataset.p; renderPresets(); });
+  const cur = ests.find(e => e.key === preset);
+  $("#eta").textContent = cur ? `${cur.name} · estimated ${cur.estimate_text}` : "";
+}
+
+$("#go").onclick = async () => {
+  if (!upload) return;
+  const fd = new FormData();
+  fd.append("upload_id", upload.upload_id); fd.append("preset", preset);
+  fd.append("limit", $("#limit").value || "0"); fd.append("label", $("#label").value);
+  $("#go").disabled = true;
+  const r = await fetch("/api/jobs", {method:"POST", body:fd});
+  const j = await r.json();
+  if (!r.ok) { alert(j.detail || "Could not start the scan"); $("#go").disabled = false; return; }
+  watch(j.id);
+};
+refreshEstimates();
+
+async function watch(id){
+  $("#job").style.display = "block";
+  const tick = async () => {
+    const j = await (await fetch(`/api/jobs/${id}`)).json();
+    $("#jobtitle").textContent = `${j.label || id}: ${j.state}`;
+    const left = j.state === "running" && j.remaining_s != null ? ` · ~${fmt(j.remaining_s)} left` : "";
+    $("#jobcount").textContent = `${j.done ?? 0} / ${j.total ?? "?"} · ${fmt(j.elapsed_s || 0)} elapsed${left}`;
+    $("#jobbar").style.width = `${100 * (j.done||0) / (j.total||1)}%`;
+    $("#joblog").innerHTML = (j.log||[]).slice(-60).reverse().map(l =>
+      `<div><span class="tag st-${l.status}">${l.status}</span> ${esc(l.domain)} <span class="muted">${esc(l.detail)} · ${l.techs} techs · seg ${l.segment}</span></div>`).join("");
+    if (j.state === "running") setTimeout(tick, 1500);
+    else { $("#go").disabled = !upload; if (j.error) alert(j.error); await loadRuns(id); }
+  };
+  tick();
+}
+
+async function loadRuns(select){
+  const r = await (await fetch("/api/runs")).json();
+  const sel = $("#runs");
+  sel.innerHTML = r.runs.map(x => `<option value="${x.id}">${esc(x.started_at)} · ${esc(x.label || x.id)} · ${x.domains} domains · ${x.unique_techs} techs</option>`).join("");
+  if (select) sel.value = select;
+  if (sel.value) loadRun(sel.value);
+  for (const j of r.running) watch(j.id);
+}
+$("#runs").onchange = e => loadRun(e.target.value);
+
+async function loadRun(id){
+  data = await (await fetch(`/api/runs/${id}`)).json();
+  segFilter.clear(); openRow = null;
+  $("#dl").innerHTML = ["leads.csv","technologies.csv","results.json","domains.csv"].map(n =>
+    `<a href="/api/runs/${id}/download/${n}"><button class="ghost">${n}</button></a>`).join("");
+  const s = data.summary;
+  const seg = s.segments || {};
+  $("#kpis").innerHTML = [
+    [s.domains, "domains"], [Math.round(s.success_rate*100)+"%", "live content analyzed"],
+    [s.unique_techs, "unique technologies"], [s.total_detections, "total detections"],
+    [s.shopify_stores, "Shopify stores"], [seg.A||0, "Shopify + direct competitor"],
+  ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
+  $("#view").style.display = "grid";
+  render();
+}
+
+function render(){
+  const q = $("#q").value.trim().toLowerCase(), onlyShop = $("#onlyshop").checked;
+  const counts = {};
+  data.rows.forEach(r => counts[r.competitive.segment] = (counts[r.competitive.segment]||0) + 1);
+  $("#segs").innerHTML = Object.keys(SEG).map(k =>
+    `<span class="chip ${segFilter.has(k)?"on":""}" data-seg="${k}"><b>${k}</b> ${SEG[k]} · ${counts[k]||0}</span>`).join("");
+  document.querySelectorAll("[data-seg]").forEach(c => c.onclick = () => {
+    const k = c.dataset.seg; segFilter.has(k) ? segFilter.delete(k) : segFilter.add(k); render(); });
+
+  const rows = data.rows.filter(r => {
+    const c = r.competitive;
+    if (segFilter.size && !segFilter.has(c.segment)) return false;
+    if (onlyShop && !c.is_shopify) return false;
+    if (q && !r.domain.includes(q) && !r.technologies.some(t => t.name.toLowerCase().includes(q))) return false;
+    return true;
+  }).sort((a,b) => a.competitive.segment.localeCompare(b.competitive.segment) || b.competitive.lead_score - a.competitive.lead_score);
+
+  $("#rows").innerHTML = rows.map(r => {
+    const c = r.competitive, comp = c.competitors || {};
+    const tags = Object.entries(comp).flatMap(([tier, tools]) => tools.map(t => `<span class="tag ${TIER[tier]}">${esc(t)}</span>`)).join("");
+    let html = `<tr class="r" data-d="${esc(r.domain)}">
+      <td><b>${esc(r.domain)}</b></td>
+      <td><span class="tag st-${r.status}">${r.status}</span><div class="muted" style="font-size:12px">${esc(r.detail)}</div></td>
+      <td class="hide-sm">${esc(c.platform || "")}</td>
+      <td><span class="seg seg-${c.segment}">${c.segment}</span></td>
+      <td>${tags || '<span class="muted">-</span>'}</td>
+      <td>${c.lead_score}</td>
+      <td class="hide-sm">${r.technologies.length}</td></tr>`;
+    if (openRow === r.domain) html += detail(r);
+    return html;
+  }).join("") || `<tr><td colspan="7" class="muted">No domains match these filters.</td></tr>`;
+  document.querySelectorAll("tr.r").forEach(tr => tr.onclick = () => { openRow = openRow === tr.dataset.d ? null : tr.dataset.d; render(); });
+}
+
+function detail(r){
+  const c = r.competitive;
+  const techs = r.technologies.map(t => `<div class="tech"><b>${esc(t.name)}</b>${t.version?` <span class="muted">${esc(t.version)}</span>`:""}
+     <span class="muted" style="float:right">${t.confidence}%</span>
+     <div class="muted" style="font-size:12px">${esc((t.categories||[]).join(", "))}${t.stale?" · from archive snapshot":""}</div>
+     ${(t.evidence||[]).map(e => `<div class="ev">[${esc(e.source)}] ${esc(e.field)}${e.key?" "+esc(e.key):""}: ${esc(e.match||"")}</div>`).join("")}
+     ${t.implied_by?`<div class="ev">implied by ${esc(t.implied_by.join(", "))}</div>`:""}</div>`).join("");
+  return `<tr class="detail"><td colspan="7">
+    ${c.pitch?`<div><b>Pitch:</b> ${esc(c.pitch)}</div>`:""}
+    ${(c.proof||[]).length?`<div style="margin-top:6px"><b>Proof</b>${c.proof.map(p=>`<div class="ev">${esc(p)}</div>`).join("")}</div>`:""}
+    ${r.pixels?`<div class="muted" style="margin-top:6px">Shopify Web Pixels installed: ${r.pixels}</div>`:""}
+    <div class="muted" style="margin-top:6px">${esc(r.final_url||"")}</div>
+    <div class="techgrid">${techs || '<span class="muted">No technologies detected.</span>'}</div></td></tr>`;
+}
+$("#q").oninput = render; $("#onlyshop").onchange = render;
+loadRuns();
+
+/* ------------------------------------------------------------------ Leads tab */
+let leads = null, lTools = new Set(), lStars = new Set(), openReview = new Set();
+const STATUS_LBL = {verified:"verified", weak_match:"weak match", closed:"store closed", not_found:"not found", unresolved:"not resolved yet", error:"error"};
+
+function setTab(t){
+  document.body.dataset.tab = t;
+  document.querySelectorAll("[data-tabbtn]").forEach(b => b.classList.toggle("on", b.dataset.tabbtn === t));
+  try { localStorage.setItem("techscan-tab", t); } catch(e) {}
+  if (t === "leads" && !leads) loadLeads();
+}
+document.querySelectorAll("[data-tabbtn]").forEach(b => b.onclick = () => setTab(b.dataset.tabbtn));
+try { const t = localStorage.getItem("techscan-tab"); if (t) setTab(t); } catch(e) {}
+
+async function loadLeads(){
+  leads = await (await fetch("/api/leads")).json();
+  const rows = leads.rows, ids = leads.app_ids || {};
+  const stores = new Set(rows.map(r => r.store + "|" + r.country));
+  const verified = new Set(rows.filter(r => r.domain_status === "verified").map(r => r.domain));
+  const learned = Object.keys(ids.ids || {}).length;
+  $("#lkpis").innerHTML = [
+    [rows.length, "reviews collected"], [rows.filter(r => r.rating <= 2).length, "1-2★ (unhappy customers)"],
+    [stores.size, "distinct stores"], [verified.size, "verified Shopify domains"], [learned, "app pixel IDs learned"],
+  ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
+  renderLeadIds(ids);
+  renderLeads();
+  if (leads.job && leads.job.state === "running") watchLeadsJob();
+}
+
+function renderLeadIds(ids){
+  const per = ids.per_tool || {};
+  const STATUS = {learned:"✅ learned", no_pixel_signal:"backend-only (no shared pixel)", too_few_stores:"too few verified stores"};
+  $("#lids").innerHTML = Object.entries(per).sort((a,b) => (a[1].status||"").localeCompare(b[1].status||"") || a[0].localeCompare(b[0])).map(([tool, r]) => {
+    const info = r.apiClientId ? (ids.ids||{})[r.apiClientId] : null;
+    return `<tr><td><b>${esc(tool)}</b></td><td>${esc(STATUS[r.status] || r.status || "")}</td>
+      <td>${r.apiClientId ? `<code>${esc(r.apiClientId)}</code>` : '<span class="muted">-</span>'}</td>
+      <td class="ev">${esc(info ? info.evidence + " · e.g. " + (info.example_stores||[]).slice(0,3).join(", ") : (r.note || `${r.reviewer_stores_with_pixels ?? 0} reviewer stores with a pixel manifest`))}</td></tr>`;
+  }).join("") || `<tr><td colspan="4" class="muted">Nothing learned yet: collect reviews and resolve domains first.</td></tr>`;
+}
+
+function filteredLeads(){
+  const q = $("#lq").value.trim().toLowerCase(), onlyV = $("#lverified").checked;
+  return leads.rows.filter(r =>
+    (!lTools.size || lTools.has(r.tool)) && (!lStars.size || lStars.has(r.rating)) &&
+    (!onlyV || r.domain_status === "verified") &&
+    (!q || [r.store, r.domain, r.text, r.country].some(x => (x||"").toLowerCase().includes(q)))
+  ).sort((a,b) => (a.rating - b.rating) || (b.date||"").localeCompare(a.date||""));
+}
+
+function renderLeads(){
+  const rows = leads.rows;
+  const tc = {}; rows.forEach(r => tc[r.tool] = (tc[r.tool]||0) + 1);
+  $("#ltools").innerHTML = Object.keys(tc).sort().map(t =>
+    `<span class="chip ${lTools.has(t)?"on":""}" data-lt="${esc(t)}">${esc(t)} · ${tc[t]}</span>`).join("");
+  const sc = {}; rows.filter(r => !lTools.size || lTools.has(r.tool)).forEach(r => sc[r.rating] = (sc[r.rating]||0) + 1);
+  $("#lstars").innerHTML = [1,2,3,4,5].map(s =>
+    `<span class="chip ${lStars.has(s)?"on":""}" data-ls="${s}"><span class="stars">${"★".repeat(s)}</span> · ${sc[s]||0}</span>`).join("");
+  document.querySelectorAll("[data-lt]").forEach(c => c.onclick = () => { const t = c.dataset.lt; lTools.has(t) ? lTools.delete(t) : lTools.add(t); renderLeads(); });
+  document.querySelectorAll("[data-ls]").forEach(c => c.onclick = () => { const s = +c.dataset.ls; lStars.has(s) ? lStars.delete(s) : lStars.add(s); renderLeads(); });
+
+  const list = filteredLeads();
+  const shown = list.slice(0, 600);
+  $("#lcount").textContent = `${list.length} reviews · sorted 1★ first, newest first` + (list.length > shown.length ? ` · showing first ${shown.length}` : "");
+  $("#lrows").innerHTML = shown.map(r => {
+    const dom = r.domain_status === "verified"
+      ? `<a href="https://${esc(r.domain)}" target="_blank" rel="noopener">${esc(r.domain)}</a><div class="muted" style="font-size:11px" title="${esc(r.domain_evidence)}">verified · ${esc(r.domain_method)}${r.pixels?` · ${r.pixels} pixels`:""}</div>`
+      : `<span class="muted" title="${esc(r.domain_evidence)}">${esc(STATUS_LBL[r.domain_status] || r.domain_status)}${r.domain ? " · " + esc(r.domain) : ""}</span>`;
+    return `<tr>
+      <td><span class="tag s${r.rating}"><span class="stars">${"★".repeat(r.rating||0)}</span></span></td>
+      <td>${esc(r.tool)}</td>
+      <td><b>${esc(r.store)}</b><div class="muted" style="font-size:12px">${esc(r.country||"")}</div></td>
+      <td>${dom}</td>
+      <td class="hide-sm">${esc(r.usage||"")}</td>
+      <td class="hide-sm" style="white-space:nowrap">${esc(r.date||"")}</td>
+      <td><div class="rtext ${openReview.has(r.id)?"":"clip"}" data-rid="${esc(r.id)}">${esc(r.text)}</div>
+        <a class="muted" style="font-size:12px" href="${esc(r.url)}" target="_blank" rel="noopener">open review ↗</a>${r.developer_replied?' <span class="muted" style="font-size:12px">· developer replied</span>':""}</td></tr>`;
+  }).join("") || `<tr><td colspan="7" class="muted">No reviews match these filters.</td></tr>`;
+  document.querySelectorAll("[data-rid]").forEach(el => el.onclick = () => { const id = el.dataset.rid; openReview.has(id) ? openReview.delete(id) : openReview.add(id); el.classList.toggle("clip"); });
+}
+$("#lq").oninput = () => leads && renderLeads();
+$("#lverified").onchange = () => leads && renderLeads();
+
+$("#lcsv").onclick = () => {
+  const cols = ["rating","tool","store","country","domain","domain_status","usage","date","text","url"];
+  const q = v => `"${String(v ?? "").replace(/"/g,'""')}"`;
+  const csv = [cols.join(",")].concat(filteredLeads().map(r => cols.map(c => q(r[c])).join(","))).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv], {type:"text/csv"}));
+  a.download = "competitor-review-leads.csv"; a.click();
+};
+
+$("#lrefresh").onclick = async () => {
+  const fd = new FormData(); fd.append("step", "all"); fd.append("max_pages", $("#lpages").value || "5");
+  const r = await fetch("/api/leads/refresh", {method:"POST", body:fd});
+  if (!r.ok) { alert((await r.json()).detail || "Could not start"); return; }
+  watchLeadsJob();
+};
+
+function watchLeadsJob(){
+  $("#ljob").style.display = "block"; $("#lrefresh").disabled = true;
+  const tick = async () => {
+    const j = await (await fetch("/api/leads/job")).json();
+    $("#ljobstep").textContent = j.state === "running" ? j.step : (j.error ? "Failed: " + j.error : "Done");
+    $("#ljobtime").textContent = `· ${fmt(j.elapsed_s||0)}`;
+    $("#ljoblog").innerHTML = (j.log||[]).slice(-40).reverse().map(l => `<div>${esc(l)}</div>`).join("");
+    if (j.state === "running") setTimeout(tick, 2000);
+    else { $("#lrefresh").disabled = false; loadLeads(); }
+  };
+  tick();
+}
+</script>
+</body>
+</html>
